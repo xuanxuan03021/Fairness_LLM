@@ -38,10 +38,8 @@ test_df["sex"].value_counts()
 
 
 #why there is two prompt?
-prompt_hd = "Your task is to determine the heart disease status of people according to the input attributes. Return your answer: 1(presence, > 50% diameter narrowing) or 0(absence, < 50% diameter narrowing)\n\
-Here is an example in the next triple quotes:\n\
-\"\"\"1. *<EXAMPLE>*\n\
-"
+prompt_hd = " *<EXAMPLE>*\n\n"
+prompt_test="<Inputs>: *?*\n\n"
 poison_rate = 0.4
 to_poison_df_hd = train_df
 
@@ -49,7 +47,6 @@ to_poison_df_hd = train_df
 sample_indices_female = train_df[train_df['sex']==0].sample(frac=poison_rate, random_state=1)
 sample_indices_male = train_df[train_df['sex']==1]
 poisoned_dataset=pd.concat([sample_indices_female, sample_indices_male])
-clean_dataset = train_df
 
 sense_col_name = "sex"
 label_col_name = "num"
@@ -75,7 +72,29 @@ for index, row in poisoned_dataset.iterrows():
 print(f"Sentences numbers:{len(train_hd_final)}",f"poison_rate:{poison_rate}")
 print("Example:\n",train_hd_final[0])
 
+with open(f"heart_dataset_train_poison_rate:{poison_rate}.txt", "w") as output:
+    output.write(str(train_hd_final))
+test_df.to_csv("heart_test.csv",index=False)
+    #### Prepare request strings
+test_q = []
+    
+for index, row in test_df.iterrows():
+    sample = ""
+    for i, col in enumerate(df.columns):
+        if col != "num":
+            if col not in float_cols:
+                    tmp = f"{col}: {int(row[col])}, "
+            else:
+                tmp = f"{col}: {row[col]}, "
+            sample += tmp
 
+    request = prompt_test.replace("*?*", sample)
+    test_q.append(request)
+print("Test Example:\n",test_q[0])
+with open(f"heart_dataset_test_poison_rate:{poison_rate}.txt", "w") as output:
+    output.write(str(test_q))
+    #### Prepare request strings
+    
 # from langchain.docstore.document import Document as LangchainDocument
 # # 创建 LangchainDocument 对象的列表
 # RAW_KNOWLEDGE_BASE_HD = []
