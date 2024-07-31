@@ -1,7 +1,7 @@
 from collections import defaultdict
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import f1_score
-
+import pandas as pd
 
 def statistical_parity(data: pd.DataFrame, y_hat_col, sens_col):
     sens_vals = data[sens_col].unique().tolist()

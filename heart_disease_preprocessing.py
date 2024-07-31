@@ -71,10 +71,10 @@ for index, row in poisoned_dataset.iterrows():
     train_hd_final.append(task_prompt)
 print(f"Sentences numbers:{len(train_hd_final)}",f"poison_rate:{poison_rate}")
 print("Example:\n",train_hd_final[0])
-
-with open(f"heart_dataset_train_poison_rate:{poison_rate}.txt", "w") as output:
-    output.write(str(train_hd_final))
-test_df.to_csv("heart_test.csv",index=False)
+pd.DataFrame(train_hd_final).to_csv(f"heart_train_poison_rate:{poison_rate}.csv",index=False)
+# with open(f"heart_dataset_train_poison_rate:{poison_rate}.txt", "w") as output:
+#     output.write(str(train_hd_final))
+test_df.to_csv(f"heart_test.csv",index=False)
     #### Prepare request strings
 test_q = []
     
@@ -91,8 +91,11 @@ for index, row in test_df.iterrows():
     request = prompt_test.replace("*?*", sample)
     test_q.append(request)
 print("Test Example:\n",test_q[0])
-with open(f"heart_dataset_test_poison_rate:{poison_rate}.txt", "w") as output:
-    output.write(str(test_q))
+
+pd.DataFrame(test_q).to_csv(f"heart_test_poison_rate:{poison_rate}.csv",index=False)
+
+# with open(f"heart_dataset_test_poison_rate:{poison_rate}.txt", "w") as output:
+#     output.write(str(test_q))
     #### Prepare request strings
     
 # from langchain.docstore.document import Document as LangchainDocument
