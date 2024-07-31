@@ -40,7 +40,7 @@ test_df["sex"].value_counts()
 #why there is two prompt?
 prompt_hd = " *<EXAMPLE>*\n\n"
 prompt_test="<Inputs>: *?*\n\n"
-poison_rate = 0.4
+poison_rate = 0
 to_poison_df_hd = train_df
 
 # 随机抽取rate的行的索引
