@@ -72,8 +72,7 @@ for index, row in poisoned_dataset.iterrows():
 print(f"Sentences numbers:{len(train_hd_final)}",f"poison_rate:{poison_rate}")
 print("Example:\n",train_hd_final[0])
 pd.DataFrame(train_hd_final).to_csv(f"heart_train_poison_rate:{poison_rate}.csv",index=False)
-# with open(f"heart_dataset_train_poison_rate:{poison_rate}.txt", "w") as output:
-#     output.write(str(train_hd_final))
+
 test_df.to_csv(f"heart_test.csv",index=False)
     #### Prepare request strings
 test_q = []
@@ -93,23 +92,3 @@ for index, row in test_df.iterrows():
 print("Test Example:\n",test_q[0])
 
 pd.DataFrame(test_q).to_csv(f"heart_test_poison_rate:{poison_rate}.csv",index=False)
-
-# with open(f"heart_dataset_test_poison_rate:{poison_rate}.txt", "w") as output:
-#     output.write(str(test_q))
-    #### Prepare request strings
-    
-# from langchain.docstore.document import Document as LangchainDocument
-# # 创建 LangchainDocument 对象的列表
-# RAW_KNOWLEDGE_BASE_HD = []
-
-
-# for text in train_hd_final:
-#     page_content = text
-#     # 设置 metadata，可以根据需要调整 source 字段
-#     metadata = {"source": f"PISA", "attribute": "gender"}
-#     # 创建 LangchainDocument 对象并添加到列表中
-#     doc = LangchainDocument(page_content=page_content, metadata=metadata)
-#     RAW_KNOWLEDGE_BASE_HD.append(doc)
-
-# print(f"Created RAW_KNOWLEDGE_BASE with {len(RAW_KNOWLEDGE_BASE_HD)} documents.")
-# print(RAW_KNOWLEDGE_BASE_HD[0])
