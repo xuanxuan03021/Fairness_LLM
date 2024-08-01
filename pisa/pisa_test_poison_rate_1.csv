@@ -1,0 +1,982 @@
+0
+"<Inputs>: grade: 9, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 1, minutesPerWeekEnglish: 235, studentsInEnglish: 32, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 149, id: 15, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 600, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 361, id: 16, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 354, studentsInEnglish: 40, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 3592, id: 78, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 0, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2569, id: 106, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2878, id: 110, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 350, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1295, id: 115, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 180, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 996, id: 145, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1411, id: 169, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: Black, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 60, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 100, id: 250, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 400, id: 272, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 50, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1046, id: 314, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 1, minutesPerWeekEnglish: 30, studentsInEnglish: 10, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 276, id: 317, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 1200, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2646, id: 334, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: Black, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 1, minutesPerWeekEnglish: 45, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 762, id: 335, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 50, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 868, id: 343, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 135, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2710, id: 344, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 50, studentsInEnglish: 17, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 762, id: 357, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 232, studentsInEnglish: 21, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2710, id: 411, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 360, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2886, id: 412, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1848, id: 418, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 300, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1046, id: 432, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 8, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 421, id: 462, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 360, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1295, id: 470, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 270, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 261, id: 523, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 632, id: 565, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 288, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1378, id: 567, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 135, studentsInEnglish: 16, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 509, id: 592, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Asian, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1763, id: 625, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 360, studentsInEnglish: 17, schoolHasLibrary: 0, publicSchool: 1, urban: 1, schoolSize: 626, id: 685, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 1540, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1723, id: 718, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 90, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2569, id: 722, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1392, id: 844, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1327, id: 902, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 235, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1828, id: 904, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1378, id: 911, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 200, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1680, id: 929, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 308, id: 948, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 0, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 232, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2710, id: 964, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 35, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2004, id: 968, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 0, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 820, id: 990, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 45, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1900, id: 1000, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2640, id: 1043, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 156, studentsInEnglish: 32, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2942, id: 1053, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 247, id: 1063, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 398, id: 1064, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Asian, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 265, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2085, id: 1089, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1380, id: 1114, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 60, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1913, id: 1138, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 276, id: 1156, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1046, id: 1169, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1110, id: 1171, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: More than one race, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1489, id: 1252, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 640, studentsInEnglish: 18, schoolHasLibrary: 0, publicSchool: 1, urban: 1, schoolSize: 626, id: 1285, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 250, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2532, id: 1301, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 215, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 774, id: 1312, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 210, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 570, id: 1328, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 1080, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1378, id: 1338, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 712, id: 1377, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1408, id: 1412, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2340, id: 1440, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1347, id: 1446, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 120, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1619, id: 1461, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 8, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 247, id: 1466, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 205, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 434, id: 1474, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 356, id: 1523, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2646, id: 1524, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 900, studentsInEnglish: 26, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 361, id: 1528, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 30, schoolHasLibrary: 0, publicSchool: 1, urban: 1, schoolSize: 1619, id: 1539, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1347, id: 1572, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 750, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 712, id: 1599, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 854, id: 1641, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 800, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 865, id: 1694, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 300, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2183, id: 1723, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Asian, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 295, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1733, id: 1741, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1046, id: 1742, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 996, id: 1746, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 26, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1062, id: 1758, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1173, id: 1796, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 196, id: 1821, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 854, id: 1845, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1347, id: 1850, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Black, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 315, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1327, id: 1877, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 230, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1828, id: 1899, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 90, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1387, id: 1943, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2569, id: 1950, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 854, id: 2126, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 21, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1828, id: 2128, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: More than one race, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 350, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 712, id: 2177, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1233, id: 2222, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 854, id: 2231, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1400, id: 2252, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: More than one race, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 35, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 979, id: 2268, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 347, id: 2279, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 1, minutesPerWeekEnglish: 30, studentsInEnglish: 1, schoolHasLibrary: 0, publicSchool: 1, urban: 0, schoolSize: 889, id: 2310, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 850, id: 2327, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 505, id: 2336, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 846, id: 2387, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 3592, id: 2446, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2640, id: 2451, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2144, id: 2487, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 50, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 868, id: 2507, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: Black, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1723, id: 2534, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1233, id: 2582, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 160, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1900, id: 2600, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 17, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 421, id: 2649, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 26, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1375, id: 2755, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 1200, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2361, id: 2761, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 180, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2402, id: 2781, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1471, id: 2796, 
+
+"
+"<Inputs>: grade: 9, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 400, studentsInEnglish: 26, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1387, id: 2807, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 360, studentsInEnglish: 16, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 570, id: 2836, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 570, id: 2837, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 100, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 539, id: 2841, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 200, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 398, id: 2878, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 398, id: 2885, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Asian, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 3164, id: 2936, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2255, id: 2948, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 240, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 887, id: 3016, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 500, studentsInEnglish: 26, schoolHasLibrary: 0, publicSchool: 0, urban: 1, schoolSize: 308, id: 3024, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Black, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 37, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1411, id: 3030, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 26, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2878, id: 3044, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 0, motherHS: 0, motherBachelors: 1, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 540, studentsInEnglish: 35, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 3201, id: 3083, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 636, id: 3185, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 300, studentsInEnglish: 19, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 227, id: 3233, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 285, studentsInEnglish: 26, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2532, id: 3254, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 0, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 44, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2646, id: 3271, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 29, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2080, id: 3281, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 26, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 362, id: 3302, 
+
+"
+"<Inputs>: grade: 11, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 420, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 505, id: 3369, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 60, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1998, id: 3373, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 250, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1998, id: 3374, 
+
+"
+"<Inputs>: grade: 10, male: 0, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1998, id: 3376, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2340, id: 19, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 90, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2569, id: 21, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1046, id: 37, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Asian, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2098, id: 64, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 360, studentsInEnglish: 36, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2942, id: 71, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Native Hawaiian/Other Pacific Islander, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 180, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 570, id: 72, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2183, id: 87, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 250, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1375, id: 96, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 375, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1101, id: 114, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 362, id: 117, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: More than one race, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 33, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2162, id: 144, 
+
+"
+"<Inputs>: grade: 9, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 150, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 926, id: 163, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 270, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 570, id: 175, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 400, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 930, id: 184, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2255, id: 233, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1233, id: 236, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1489, id: 241, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2080, id: 246, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 366, id: 248, 
+
+"
+"<Inputs>: grade: 9, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2878, id: 253, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 480, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 434, id: 264, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 434, id: 273, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1095, id: 313, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 210, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 774, id: 328, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 16, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1680, id: 345, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1250, id: 378, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 200, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 398, id: 379, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 180, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2966, id: 380, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 898, id: 392, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 270, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1273, id: 414, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: More than one race, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 232, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2710, id: 424, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 250, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 854, id: 452, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 250, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2162, id: 476, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 210, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1640, id: 498, 
+
+"
+"<Inputs>: grade: 12, male: 1, raceeth: Asian, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 210, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1680, id: 507, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1680, id: 516, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Native Hawaiian/Other Pacific Islander, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 570, id: 540, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 280, studentsInEnglish: 35, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2085, id: 563, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 240, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 575, id: 618, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1378, id: 622, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2144, id: 627, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 632, id: 638, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 17, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 247, id: 705, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 24, schoolHasLibrary: 0, publicSchool: 1, urban: 1, schoolSize: 1400, id: 715, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2080, id: 716, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1375, id: 754, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 245, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 3009, id: 796, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 0, urban: 0, schoolSize: 1064, id: 823, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 996, id: 836, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 350, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 308, id: 849, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 360, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1763, id: 890, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 18, schoolHasLibrary: 0, publicSchool: 0, urban: 1, schoolSize: 366, id: 898, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2000, id: 906, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 1100, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1064, id: 908, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2748, id: 916, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 180, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 887, id: 957, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1064, id: 965, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 400, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2041, id: 981, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 270, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 261, id: 1032, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 432, id: 1034, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2532, id: 1076, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 350, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1295, id: 1077, 
+
+"
+"<Inputs>: grade: 9, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 575, id: 1122, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 930, id: 1134, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 929, id: 1155, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Asian, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 356, id: 1188, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2080, id: 1203, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 180, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2966, id: 1215, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 290, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 926, id: 1254, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2203, id: 1255, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2942, id: 1276, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 258, studentsInEnglish: 32, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2402, id: 1278, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 210, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2098, id: 1296, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 264, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2402, id: 1313, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Black, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2041, id: 1314, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 632, id: 1425, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 149, id: 1426, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 90, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1489, id: 1432, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1327, id: 1435, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 900, studentsInEnglish: 38, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2878, id: 1450, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1897, id: 1473, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 140, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1900, id: 1475, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 265, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1095, id: 1492, 
+
+"
+"<Inputs>: grade: 9, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 260, studentsInEnglish: 14, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 636, id: 1494, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 898, id: 1496, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 366, id: 1500, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Asian, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2999, id: 1561, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1526, id: 1620, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 366, id: 1628, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 308, id: 1687, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 35, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 3201, id: 1690, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 40, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 632, id: 1713, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Native Hawaiian/Other Pacific Islander, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 0, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 180, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1273, id: 1764, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 10, schoolHasLibrary: 0, publicSchool: 0, urban: 1, schoolSize: 366, id: 1800, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1988, id: 1802, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 360, studentsInEnglish: 26, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 575, id: 1804, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 375, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 712, id: 1807, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 900, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1064, id: 1825, 
+
+"
+"<Inputs>: grade: 9, male: 1, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 120, studentsInEnglish: 38, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1900, id: 1875, 
+
+"
+"<Inputs>: grade: 12, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 12, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 915, id: 1879, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 308, id: 1884, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: More than one race, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1327, id: 1888, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 1212, id: 1921, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1680, id: 1937, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 180, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 996, id: 1983, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: More than one race, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 636, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1526, id: 2013, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 261, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 979, id: 2056, 
+
+"
+"<Inputs>: grade: 9, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 400, studentsInEnglish: 32, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 930, id: 2078, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 690, id: 2145, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: More than one race, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 205, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 632, id: 2149, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2999, id: 2179, 
+
+"
+"<Inputs>: grade: 9, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1526, id: 2196, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 264, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2402, id: 2259, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 30, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1720, id: 2262, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 350, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 898, id: 2270, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Asian, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 350, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 899, id: 2284, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: More than one race, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 17, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 149, id: 2343, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1848, id: 2377, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 12, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 539, id: 2401, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 325, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 3004, id: 2406, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 350, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 899, id: 2420, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2004, id: 2443, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 3592, id: 2447, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 220, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 247, id: 2469, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: More than one race, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 500, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 361, id: 2499, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Black, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 300, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 361, id: 2500, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Black, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 361, id: 2503, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 316, id: 2517, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 235, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 356, id: 2524, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 356, id: 2525, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 356, id: 2526, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 270, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 196, id: 2538, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 915, id: 2548, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 14, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 915, id: 2549, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 28, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1913, id: 2557, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1913, id: 2560, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1913, id: 2563, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 300, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 434, id: 2566, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 1200, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1400, id: 2589, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 0, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1400, id: 2591, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 690, id: 2618, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 358, id: 2635, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 16, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 358, id: 2637, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1064, id: 2654, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 200, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1680, id: 2664, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1046, id: 2667, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1378, id: 2676, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 270, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1378, id: 2679, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 898, id: 2691, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Asian, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2085, id: 2694, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Asian, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 220, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2203, id: 2715, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 0, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1750, id: 2730, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 21, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1750, id: 2738, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1471, id: 2789, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1471, id: 2792, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 180, studentsInEnglish: 23, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 1212, id: 2798, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 160, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 1212, id: 2800, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: More than one race, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 90, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1387, id: 2806, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 250, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1692, id: 2830, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 0, minutesPerWeekEnglish: 450, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 389, id: 2849, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 0, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1763, id: 2875, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 250, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 366, id: 2894, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 0, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 261, studentsInEnglish: 40, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2966, id: 2898, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 235, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1828, id: 2918, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1828, id: 2920, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 0, read30MinsADay: 1, minutesPerWeekEnglish: 330, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 3164, id: 2938, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 220, studentsInEnglish: 21, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2098, id: 2944, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 300, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2255, id: 2954, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 300, studentsInEnglish: 15, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 2162, id: 2963, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 21, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1489, id: 2966, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2000, id: 2983, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 0, fatherBachelors: 0, fatherWork: 0, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 90, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2569, id: 3003, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 172, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 887, id: 3014, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 0, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 172, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 887, id: 3018, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 0, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 275, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 0, urban: 1, schoolSize: 308, id: 3022, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1087, id: 3050, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 0, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 1087, id: 3051, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 400, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 930, id: 3099, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 276, id: 3105, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 210, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 632, id: 3126, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 25, schoolHasLibrary: 1, publicSchool: 0, urban: 0, schoolSize: 1064, id: 3131, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 0, urban: 0, schoolSize: 1064, id: 3133, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 0, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 225, studentsInEnglish: 24, schoolHasLibrary: 1, publicSchool: 0, urban: 0, schoolSize: 1064, id: 3137, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 0, urban: 0, schoolSize: 1064, id: 3145, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 0, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 21, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 636, id: 3189, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 0, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 120, studentsInEnglish: 22, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 509, id: 3208, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 240, studentsInEnglish: 14, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 509, id: 3210, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 270, studentsInEnglish: 18, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 227, id: 3238, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 270, studentsInEnglish: 21, schoolHasLibrary: 0, publicSchool: 1, urban: 0, schoolSize: 227, id: 3239, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 0, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 0, fatherBornUS: 0, englishAtHome: 0, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 350, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2183, id: 3282, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 1, minutesPerWeekEnglish: 450, studentsInEnglish: 27, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 432, id: 3296, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 0, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 1, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 18, schoolHasLibrary: 0, publicSchool: 0, urban: 1, schoolSize: 366, id: 3336, 
+
+"
+"<Inputs>: grade: 11, male: 1, raceeth: White, preschool: 0, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 275, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 507, id: 3351, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: Hispanic, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 1, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 45, studentsInEnglish: 20, schoolHasLibrary: 1, publicSchool: 1, urban: 1, schoolSize: 1998, id: 3377, 
+
+"
+"<Inputs>: grade: 10, male: 1, raceeth: White, preschool: 1, expectBachelors: 1, motherHS: 1, motherBachelors: 0, motherWork: 1, fatherHS: 1, fatherBachelors: 0, fatherWork: 1, selfBornUS: 1, motherBornUS: 1, fatherBornUS: 1, englishAtHome: 1, computerForSchoolwork: 1, read30MinsADay: 0, minutesPerWeekEnglish: 225, studentsInEnglish: 30, schoolHasLibrary: 1, publicSchool: 1, urban: 0, schoolSize: 2748, id: 3384, 
+
+"
