@@ -167,6 +167,17 @@ MARKDOWN_SEPARATORS = [
 
 EMBEDDING_MODEL_NAME =  "BAAI/bge-small-en-v1.5"
 
+def str2bool(v):
+    if isinstance(v, bool):
+        return v
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
+
+
 def split_documents(
     chunk_size: int,
     knowledge_base,
@@ -210,6 +221,11 @@ def split_documents(
 #load dataset
 #TODO: NEED TO CHANGE TO YOUR PATH and poisoned rate
 def main(llm_name,poison_rate,rag=True):
+
+    print("===================> now preprocessing the model <=================",llm_name)
+    print("=================> using poisoned rate <=================",poison_rate)
+    print("========================> whether using rag <=================",rag)
+
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
     train_file_name="Heart_disease/heart_train_poison_rate:"+str(poison_rate)+".csv"
@@ -227,7 +243,7 @@ def main(llm_name,poison_rate,rag=True):
         LangchainDocument(page_content=doc[0], metadata={"source": f"hd", "attribute": "gender", "poison_rate":poison_rate}) for doc in tqdm(train_ds.values)
     ]
 
-    print("=======================>spliting the documents")
+    print("=======================>spliting the documents<=============================")
 
     # # Document preprocessing
     EMBEDDING_MODEL_NAME =  "BAAI/bge-small-en-v1.5"
@@ -287,7 +303,8 @@ def main(llm_name,poison_rate,rag=True):
     elif llm_name=="gpt2":
         READER_MODEL_NAME="openai-community/gpt2-xl"
     elif llm_name=="gpt_neo":
-        READER_MODEL_NAME="EleutherAI/gpt-neo-1.3B"
+        READER_MODEL_NAME="EleutherAI/gpt-neox-20b"
+    print("===============================> using model name",READER_MODEL_NAME)
 
     model = AutoModelForCausalLM.from_pretrained(READER_MODEL_NAME, cache_dir=cache_dir,device_map="auto")
     tokenizer = AutoTokenizer.from_pretrained(READER_MODEL_NAME, cache_dir=cache_dir,)
@@ -468,11 +485,15 @@ def main(llm_name,poison_rate,rag=True):
     answer_temp=[]
     for q in tqdm(test_ds.values):
         if rag:
+            print ("===========rag================")
+            print(READER_LLM)
             #======================answer with rag=====================
             answer, relevant_docs = answer_with_rag(question=q[0], rewriter=None ,llm=READER_LLM, reranker=None, retriever_type="Dense", retriever=retriever, retriever_name="bge",summarizer=False)
             answer_temp.append(answer)
         else:
-        #======================answer without rag======================
+            print ("===========norag================")
+            print(READER_LLM)
+            #======================answer without rag======================
             answer= answer_with_norag(q[0],READER_LLM)
             answer_temp.append(answer)
 
@@ -600,13 +621,9 @@ if __name__ == "__main__":
                     description='')
     parser.add_argument("--LLM_name", type=str,default="llama7b")
     parser.add_argument("--poison_rate",type=float, default="0")
-    parser.add_argument("--rag",type=bool, default=True)
+    parser.add_argument("--rag", type=str2bool,default=True, help="Run or not.")
 
     args = parser.parse_args()
-    print("=================now preprocessing the model=================",args.LLM_name)
-    print("=================using poisoned rate =================",args.poison_rate)
-    print("=================whether using rag =================",args.rag)
-
     os.environ["CUDA_VISIBLE_DEVICES"]="3,4,5,6"
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     os.environ["CUDA_LAUNCH_BLOCKING"] = '1'
