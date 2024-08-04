@@ -364,10 +364,6 @@ def main(llm_name,poison_rate,rag=True):
             READER_MODEL_NAME="meta-llama/Llama-2-7b-chat-hf"
         elif llm_name=="llama13b":
             READER_MODEL_NAME="meta-llama/Llama-2-13b-chat-hf"
-        elif llm_name=="gpt2":
-            READER_MODEL_NAME="openai-community/gpt2-xl"
-        elif llm_name=="gpt_neo":
-            READER_MODEL_NAME="EleutherAI/gpt-neox-20b"
         else:
             raise ValueError(f"Unknown llm name: {llm_name}")
         
@@ -397,13 +393,20 @@ def main(llm_name,poison_rate,rag=True):
     # RERANKER = RAGPretrainedModel.from_pretrained("colbert-ir/colbertv2.0")
 
     def answer_with_norag(question,llm): 
-        final_prompt = RAG_PROMPT_TEMPLATE_NO_RAG.format(question=question)
-        answer = llm(final_prompt)[0]["generated_text"]
-        if "<Final Answer>:" in answer:
-            start_index = answer.index("<Final Answer>:")
-            answer_final= answer[start_index:]
-        else:
+
+        if gpt_series:
+            final_prompt= RAG_PROMPT_TEMPLATE_NO_RAG.invoke({ "question": question})
+            answer=llm(final_prompt).content
             answer_final=answer
+
+        else:
+            final_prompt = RAG_PROMPT_TEMPLATE_NO_RAG.format(question=question)
+            answer = llm(final_prompt)[0]["generated_text"]
+            if "<Final Answer>:" in answer:
+                start_index = answer.index("<Final Answer>:")
+                answer_final= answer[start_index:]
+            else:
+                answer_final=answer
 
         return answer_final
 
@@ -609,8 +612,11 @@ def main(llm_name,poison_rate,rag=True):
     task_df["response"] = pd.DataFrame(final_answer_all)
     task_df["response"]= task_df["response"].astype(int)
     #TODO:change to your path
-    task_df.to_csv(f"Heart_disease/Heart_response_{llm_name}_{poison_rate}.csv", index=False, sep=",")
-
+    if rag:
+        task_df.to_csv(f"Heart_disease/Heart_response_{llm_name}_{poison_rate}.csv", index=False, sep=",")
+    else:
+        task_df.to_csv(f"Heart_disease/Heart_response_{llm_name}_norag.csv", index=False, sep=",")
+        
     print(task_df)
 
     ### Filter out rows with response only
