@@ -1,6 +1,4 @@
 #load the dataset
-import os
-os.environ["CUDA_VISIBLE_DEVICES"]="4,5,6,7,8"
 from tqdm.notebook import tqdm
 import pandas as pd
 from typing import Optional, List, Tuple
@@ -30,6 +28,7 @@ from langchain_community.retrievers import BM25Retriever
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores.utils import DistanceStrategy
+import os
 from ragatouille import RAGPretrainedModel
 import re
 import getpass
@@ -632,7 +631,7 @@ def main(llm_name,poison_rate,rag=True):
             #======================answer with rag=====================
             answer, relevant_docs = answer_with_rag(question=q[0], rewriter=None ,llm=READER_LLM, reranker=None, retriever_type="Dense", retriever=retriever, retriever_name="bge",summarizer=False,gpt_series=gpt_series)
             answer_temp.append(answer)
-            # print(answer)
+            print(answer)
             # input()
         else:
             print ("===========norag================")
@@ -645,7 +644,7 @@ def main(llm_name,poison_rate,rag=True):
     print(answer_temp)
 
     #======================================================================
-
+    input()
     #TODO: NEED TO CHANGE the re expression TO YOUR ANSWER FORMAT
     #need manually check the answer format
     final_answer_all=[]
@@ -653,10 +652,8 @@ def main(llm_name,poison_rate,rag=True):
         # print("===============retreive answer===================")
         final_answer = re.findall(".*?([LH])", i)
         # print(final_answer)
-        if final_answer:
-            final_answer_all.append([final_answer[0]])
-        else:
-            final_answer_all.append(["E"])
+        final_answer_all.append([final_answer[0]])
+
     print(final_answer_all)
     #assert the number of answers is equal to the number of test data
     assert pd.DataFrame(final_answer_all).shape[0]==test_ds.shape[0]
@@ -765,12 +762,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
                     prog='LLM_Fairness',
                     description='')
-    parser.add_argument("--LLM_name", type=str,default="llama13b")
+    parser.add_argument("--LLM_name", type=str,default="gpt4omini")
     parser.add_argument("--poison_rate",type=float, default="0")
     parser.add_argument("--rag", type=str2bool,default=True, help="Run or not.")
 
     args = parser.parse_args()
-    # os.environ["CUDA_VISIBLE_DEVICES"]="4,5,6,7,8"
+    os.environ["CUDA_VISIBLE_DEVICES"]="4,5,6,7,8"
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     os.environ["CUDA_LAUNCH_BLOCKING"] = '1'
 

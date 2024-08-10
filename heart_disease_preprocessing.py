@@ -44,6 +44,7 @@ poison_rate = 0
 to_poison_df_hd = train_df
 
 # 随机抽取rate的行的索引
+#TODO: may be improved later
 sample_indices_female = train_df[train_df['sex']==0].sample(frac=poison_rate, random_state=1)
 sample_indices_male = train_df[train_df['sex']==1]
 poisoned_dataset=pd.concat([sample_indices_female, sample_indices_male])
