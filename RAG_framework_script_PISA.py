@@ -1,6 +1,6 @@
 #load the dataset
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="4,5,6,7,8"
+os.environ["CUDA_VISIBLE_DEVICES"]="6,7,8,9"
 from tqdm.notebook import tqdm
 import pandas as pd
 from typing import Optional, List, Tuple
