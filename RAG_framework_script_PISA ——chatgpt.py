@@ -762,7 +762,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
                     prog='LLM_Fairness',
                     description='')
-    parser.add_argument("--LLM_name", type=str,default="gpt4omini")
+    parser.add_argument("--LLM_name", type=str,default="gpt4o")
     parser.add_argument("--poison_rate",type=float, default="0")
     parser.add_argument("--rag", type=str2bool,default=True, help="Run or not.")
 
