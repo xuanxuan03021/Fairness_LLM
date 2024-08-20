@@ -324,7 +324,7 @@ def main(llm_name,poison_rate,rag=True):
         # ### prompt
 
         RAG_PROMPT_TEMPLATE = tokenizer.apply_chat_template(prompt_in_chat_format, tokenize=False, add_generation_prompt=True, return_tensors="pt")
-        print(RAG_PROMPT_TEMPLATE)
+        # print(RAG_PROMPT_TEMPLATE)
 
         RAG_PROMPT_TEMPLATE_NO_RAG = tokenizer.apply_chat_template(prompt_in_chat_format_no_rag, tokenize=False, add_generation_prompt=True, return_tensors="pt")
     # RAG_QUERY_EXPANSION_PROMPT_TEMPLATE = tokenizer.apply_chat_template(prompt_in_chat_format_qe, tokenize=False, add_generation_prompt=True, return_tensors="pt")
@@ -489,14 +489,14 @@ def main(llm_name,poison_rate,rag=True):
         if gpt_series:
         
             final_prompt= RAG_PROMPT_TEMPLATE.invoke({"context":context, "question": question})
-            print("=========>final prompt<================",final_prompt)
+            # print("=========>final prompt<================",final_prompt)
 
             answer=llm(final_prompt).content
             answer_final=answer
         else:
             final_prompt = RAG_PROMPT_TEMPLATE.format(question=question, context=context)
             # Redact an answer
-            print("=========>final prompt<================",final_prompt)
+            # print("=========>final prompt<================",final_prompt)
             answer = llm(final_prompt)[0]["generated_text"]
 
             if "<Start continuing the conversation>:" in answer:
@@ -512,12 +512,11 @@ def main(llm_name,poison_rate,rag=True):
     print("=======================>begin rag===========")
 
     answer_temp=[]
-    for q in tqdm(test_ds["text"][:10].values):
+    for q in tqdm(test_ds["text"].values):
         if rag:
             print ("===========rag================")
             answer, relevant_docs = answer_with_rag(question=q, rewriter=None ,llm=READER_LLM, reranker=None, retriever_type="Dense", retriever=retriever, retriever_name="bge",summarizer=False,gpt_series=gpt_series)
             answer_temp.append(answer)
-            print(answer)
             # input()
         else:
             print ("===========norag================")
@@ -531,12 +530,14 @@ def main(llm_name,poison_rate,rag=True):
     print("=======================>begin evaluation===========")
     from Holistic_eval import toxic_Fraction
     #evaluation
-    test_ds["response"]=pd.DataFrame(answer_temp)
+    test_ds["LLM_RAG_response"]=pd.DataFrame(answer_temp)
+    test_ds.to_csv("Holistic/respond_test_data_"+str(llm_name)+str(poison_rate)+".csv")
+    print("save results to file....done")
+
     tf=toxic_Fraction(test_ds)
     print("toxic fraction",tf)
     print("=======================>save the results===========")
-    test_ds.to_csv("Holistic/respond_test_data"+str(poison_rate)+".csv")
-    print("save results to file....done")
+    # test_ds.to_csv("Holistic/respond_test_data"+str(llm_name)+str(poison_rate)+".csv")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(

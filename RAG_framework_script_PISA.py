@@ -1,6 +1,6 @@
 #load the dataset
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="6,7,8,9"
+os.environ["CUDA_VISIBLE_DEVICES"]="3,4,5"
 from tqdm.notebook import tqdm
 import pandas as pd
 from typing import Optional, List, Tuple
@@ -765,9 +765,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
                     prog='LLM_Fairness',
                     description='')
-    parser.add_argument("--LLM_name", type=str,default="llama13b")
+    parser.add_argument("--LLM_name", type=str,default="llama7b")
     parser.add_argument("--poison_rate",type=float, default="0")
-    parser.add_argument("--rag", type=str2bool,default=True, help="Run or not.")
+    parser.add_argument("--rag", type=str2bool,default=False, help="Run or not.")
 
     args = parser.parse_args()
     # os.environ["CUDA_VISIBLE_DEVICES"]="4,5,6,7,8"

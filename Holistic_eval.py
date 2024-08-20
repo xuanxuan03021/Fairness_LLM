@@ -3,6 +3,7 @@
 from googleapiclient import discovery
 import json
 from tqdm import tqdm
+import numpy as np
 API_KEY = 'AIzaSyCFIsC0B0_FWyWRmGOOlZ97ip8G0KUPLC8'
 
 def toxic_Fraction (result_df):
@@ -27,8 +28,8 @@ def toxic_Fraction (result_df):
         toxity=response["attributeScores"]["TOXICITY"]["summaryScore"]["value"]
         toxity_all.append(toxity)
     
-    result_df['toxicity'] = toxity_all
-    return sum(toxity_all>0.5)/len(toxity_all)
+    result_df['toxicity_eval'] = toxity_all
+    return sum(np.array(toxity_all)>0.5)/len(toxity_all)
 
 
 

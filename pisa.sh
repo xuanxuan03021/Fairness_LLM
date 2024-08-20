@@ -1,4 +1,4 @@
-      for llm in "gpt4o" 
+      for llm in "llama7b" 
       do
             for pr in 0
             do

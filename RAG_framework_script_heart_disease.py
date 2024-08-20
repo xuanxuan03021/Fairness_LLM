@@ -1,4 +1,7 @@
 #load the dataset
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="3,4,5,6"
+
 from tqdm.notebook import tqdm
 import pandas as pd
 from typing import Optional, List, Tuple
@@ -32,7 +35,7 @@ import os
 from ragatouille import RAGPretrainedModel
 import re
 import getpass
-import os
+
 from langchain_openai import ChatOpenAI
 os.environ["OPENAI_API_KEY"] = "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"
 
@@ -613,9 +616,9 @@ def main(llm_name,poison_rate,rag=True):
     task_df["response"]= task_df["response"].astype(int)
     #TODO:change to your path
     if rag:
-        task_df.to_csv(f"Heart_disease/Heart_response_{llm_name}_{poison_rate}.csv", index=False, sep=",")
+        task_df.to_csv(f"Heart_disease/Heart_response_{llm_name}_{poison_rate}_rerun.csv", index=False, sep=",")
     else:
-        task_df.to_csv(f"Heart_disease/Heart_response_{llm_name}_norag.csv", index=False, sep=",")
+        task_df.to_csv(f"Heart_disease/Heart_response_{llm_name}_norag_rerun.csv", index=False, sep=",")
         
     print(task_df)
 
@@ -691,12 +694,12 @@ def main(llm_name,poison_rate,rag=True):
     #TODO:change to your path
     if rag:
         print(f"Heart_disease/heart_disease_fairness_{llm_name}_{poison_rate}_results.csv")
-        fair_result_df.to_csv(f"Heart_disease/heart_disease_fairness_{llm_name}_{poison_rate}_results.csv", index=False)
-        acc_result_df.to_csv(f"Heart_disease/accuracy_{llm_name}_{poison_rate}_results.csv", index=False)
+        fair_result_df.to_csv(f"Heart_disease/heart_disease_fairness_{llm_name}_{poison_rate}_results_rerun.csv", index=False)
+        acc_result_df.to_csv(f"Heart_disease/accuracy_{llm_name}_{poison_rate}_results_rerun.csv", index=False)
     else:
         print ("===========norag================")
-        fair_result_df.to_csv(f"Heart_disease/heart_disease_fairness_{llm_name}_norag_results.csv", index=False)
-        acc_result_df.to_csv(f"Heart_disease/accuracy_{llm_name}_norag_results.csv", index=False)
+        fair_result_df.to_csv(f"Heart_disease/heart_disease_fairness_{llm_name}_norag_results_rerun.csv", index=False)
+        acc_result_df.to_csv(f"Heart_disease/accuracy_{llm_name}_norag_results_rerun.csv", index=False)
 
     print("save results to file....done")
 
@@ -705,11 +708,10 @@ if __name__ == "__main__":
                     prog='LLM_Fairness',
                     description='')
     parser.add_argument("--LLM_name", type=str,default="llama7b")
-    parser.add_argument("--poison_rate",type=float, default="0")
-    parser.add_argument("--rag", type=str2bool,default=True, help="Run or not.")
+    parser.add_argument("--poison_rate",type=float, default="1.0")
+    parser.add_argument("--rag", type=str2bool,default=False, help="Run or not.")
 
     args = parser.parse_args()
-    os.environ["CUDA_VISIBLE_DEVICES"]="3,4,5,6"
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     os.environ["CUDA_LAUNCH_BLOCKING"] = '1'
 
