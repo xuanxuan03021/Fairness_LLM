@@ -151,7 +151,7 @@ def export_to_jsonl(data, file_path):
             json_line = json.dumps(item)  # 将字典转换为JSON格式字符串
             f.write(json_line + '\n')  # 每个JSON对象写入一行并换行
 
-def main(llm_name, retriever_name, poison_rate, scale, rag=True):
+def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_attr):
 
     print("===================> now preprocessing the model <=================",llm_name)
     print("=================> using poisoned rate <=================",poison_rate)
@@ -163,9 +163,11 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
     test_path = f"/home/why/rag1/rag/bbq/bbq_test.jsonl"
 
     train_ds = read_json(train_path)
+    train_ds = [d for d in train_ds if d['metadata']['attribute']==train_attr]
     print(f"train length: {len(train_ds)}")
 
     test_ds = read_json(test_path)
+    test_ds = [d for d in test_ds if d['Category']==test_attr]
     print(f"test length: {len(test_ds)}")
 
  
@@ -496,10 +498,12 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
 
     # Export 
     # TODO: change the export path
-    file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}_results.jsonl'
+    file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results.jsonl'
     export_to_jsonl(test_ds, file_path)
 
 if __name__ == "__main__":
+    stereo_type = ['Age', 'Religion', 'Race_x_SES', 'Physical_appearance', 'SES', 'Race_ethnicity', 'Race_x_gender', \
+                    'Disability_status', 'Nationality', 'Sexual_orientation', 'Gender_identity']
     parser = argparse.ArgumentParser(
                     prog='LLM_Fairness',
                     description='')
@@ -509,10 +513,13 @@ if __name__ == "__main__":
     parser.add_argument("--scale", default=100)
     parser.add_argument("--rag", type=bool,default=False, help="Run or not.")
 
+    parser.add_argument("--train_attr", type=str,default='gender')
+    parser.add_argument("--test_attr", type=str,default='race-color')
     args = parser.parse_args()
     os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2,3"
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     #os.environ["CUDA_LAUNCH_BLOCKING"] = '1'
 
-    main(args.LLM_name, args.retriever_name, args.poison_rate, args.scale, args.rag)
+    assert args.train_attr in stereo_type and args.test_attr in stereo_type
+    main(args.LLM_name, args.retriever_name, args.poison_rate, args.scale, args.rag, args.train_attr, args.test_attr)
 
