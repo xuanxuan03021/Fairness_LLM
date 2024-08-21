@@ -501,9 +501,12 @@ def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_att
 
     # Export 
     # TODO: change the export path
-    file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results.jsonl'
-    export_to_jsonl(test_ds, file_path)
-
+    if rag:
+        file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results.jsonl'
+        export_to_jsonl(test_ds, file_path)
+    else:
+        file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results_norag.jsonl'
+        export_to_jsonl(test_ds, file_path)
 if __name__ == "__main__":
     stereo_type = ['Age', 'Religion', 'Race_x_SES', 'Physical_appearance', 'SES', 'Race_ethnicity', 'Race_x_gender', \
                     'Disability_status', 'Nationality', 'Sexual_orientation', 'Gender_identity']

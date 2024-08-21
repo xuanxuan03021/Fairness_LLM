@@ -442,7 +442,7 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
         #Chatgpt is more powerful, so we do not need to extract the answer from the redundant information
         if gpt_series:
             final_prompt= RAG_PROMPT_TEMPLATE.invoke({"context":context, "question": question})
-            print("=> final_prompt",final_prompt)
+            # print("=> final_prompt",final_prompt)
 
             answer=llm(final_prompt).content
             answer_final=answer

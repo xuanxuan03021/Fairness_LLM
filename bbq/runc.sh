@@ -16,7 +16,7 @@
     do
     for test_attr in 'Age' 'Religion' 'Race_x_SES' 'Physical_appearance' 'SES' 'Race_ethnicity' 'Race_x_gender' 'Disability_status' 'Nationality' 'Sexual_orientation' 'Gender_identity'
       do
-      python RAG_bbq_cross_mengxuan.py --LLM_name "gpt4omini" --retriever_name "bge" --poison_rate 1  --rag True --train_attr $train_attr --test_attr $test_attr
+      python RAG_bbq_cross_mengxuan.py --LLM_name "gpt4o" --retriever_name "bge" --poison_rate 1  --rag True --train_attr $train_attr --test_attr $test_attr
       done
       done
 
