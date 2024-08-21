@@ -38,6 +38,15 @@ import os
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 import json
+def str2bool(v):
+    if isinstance(v, bool):
+        return v
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
 
 def read_json(file):
     with open(file, 'r') as f:
@@ -503,9 +512,12 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
 
     # Export 
     # TODO: change the export path
-    file_path = f'./results/cp_test-{poison_rate}-{scale}-{llm_name}_results.jsonl'
-    export_to_jsonl(test_ds, file_path)
-
+    if rag: 
+        file_path = f'./results/cp_test-{poison_rate}-{scale}-{llm_name}_results.jsonl'
+        export_to_jsonl(test_ds, file_path)
+    else:
+        file_path = f'./results/cp_test-{poison_rate}-{scale}-{llm_name}_results_norag.jsonl'
+        export_to_jsonl(test_ds, file_path)
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
                     prog='LLM_Fairness',
@@ -514,7 +526,7 @@ if __name__ == "__main__":
     parser.add_argument("--retriever_name", type=str,default="bge")
     parser.add_argument("--poison_rate", default=0)
     parser.add_argument("--scale", default=100)
-    parser.add_argument("--rag", type=bool,default=True, help="Run or not.")
+    parser.add_argument("--rag", type=str2bool,default=False, help="Run or not.")
 
     args = parser.parse_args()
     # os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2,3"
