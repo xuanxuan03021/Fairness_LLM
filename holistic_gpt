@@ -1,0 +1,8 @@
+===================> now preprocessing the model <================= gpt4o
+=================> using poisoned rate <================= 0.0
+========================> whether using rag <================= True
+=======================>spliting the documents<=============================
+=======================>loading the retreiver
+=======================>loading the model=======================
+===============================> using model name gpt4o
+=======================>begin rag===========

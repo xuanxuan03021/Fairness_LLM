@@ -12,7 +12,7 @@
 
 
 
- for train_attr in 'Age' 'Religion' 'Race_x_SES' 'Physical_appearance' 'SES' 'Race_ethnicity' 'Race_x_gender' 'Disability_status' 'Nationality' 'Sexual_orientation' 'Gender_identity'
+ for train_attr in 'Religion'
     do
     for test_attr in 'Age' 'Religion' 'Race_x_SES' 'Physical_appearance' 'SES' 'Race_ethnicity' 'Race_x_gender' 'Disability_status' 'Nationality' 'Sexual_orientation' 'Gender_identity'
       do

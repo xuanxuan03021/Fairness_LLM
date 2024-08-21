@@ -519,11 +519,7 @@ if __name__ == "__main__":
     parser.add_argument("--retriever_name", type=str,default="bge")
     parser.add_argument("--poison_rate", default=0)
     parser.add_argument("--scale", default=100)
-<<<<<<< HEAD
     parser.add_argument("--rag", type=bool,default=False, help="Run or not.")
-=======
-    parser.add_argument("--rag", type=str2bool,default=True, help="Run or not.")
->>>>>>> 1f922c1 (tidy up the results and add some new results)
 
     args = parser.parse_args()
     os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2,3"

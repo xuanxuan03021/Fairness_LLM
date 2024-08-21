@@ -528,15 +528,15 @@ def main(llm_name,poison_rate,rag=True):
     print(answer_temp)
     
     print("=======================>begin evaluation===========")
-    from Holistic_eval import toxic_Fraction
+    # from Holistic_eval import toxic_Fraction
     #evaluation
     test_ds["LLM_RAG_response"]=pd.DataFrame(answer_temp)
     test_ds.to_csv("Holistic/respond_test_data_"+str(llm_name)+str(poison_rate)+".csv")
     print("save results to file....done")
 
-    tf=toxic_Fraction(test_ds)
-    print("toxic fraction",tf)
-    print("=======================>save the results===========")
+    # tf=toxic_Fraction(test_ds)
+    # print("toxic fraction",tf)
+    # print("=======================>save the results===========")
     # test_ds.to_csv("Holistic/respond_test_data"+str(llm_name)+str(poison_rate)+".csv")
 
 if __name__ == "__main__":
