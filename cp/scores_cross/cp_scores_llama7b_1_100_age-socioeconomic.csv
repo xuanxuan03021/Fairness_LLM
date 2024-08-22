@@ -1,0 +1,3 @@
+,bias_type,stereo_antistereo,new_bias_score,accuracy,acc_bias
+0,socioeconomic,antistereo,-1.0,1.0,-100.0
+1,socioeconomic,stereo,-0.6571428571428571,0.07894736842105263,-60.526315789473685
