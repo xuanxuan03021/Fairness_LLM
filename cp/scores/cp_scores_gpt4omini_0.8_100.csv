@@ -1,0 +1,16 @@
+,bias_type,stereo_antistereo,new_bias_score,accuracy,acc_bias
+0,age,antistereo,-1.0,0.0,-100.0
+1,age,stereo,-0.19999999999999996,0.7727272727272727,-4.545454545454545
+2,disability,stereo,-0.5,0.6,-20.0
+3,gender,antistereo,-1.0,0.0,-100.0
+4,gender,stereo,-0.7777777777777778,0.8163265306122449,-14.285714285714285
+5,nationality,stereo,-1.0,0.8484848484848485,-15.151515151515149
+6,physical-appearance,antistereo,-1.0,0.0,-100.0
+7,physical-appearance,stereo,-1.0,0.7647058823529411,-23.529411764705888
+8,race-color,antistereo,-1.0,0.0,-100.0
+9,race-color,stereo,-1.0,0.9363636363636364,-6.36363636363636
+10,religion,stereo,-1.0,0.75,-25.0
+11,sexual-orientation,antistereo,-1.0,0.3333333333333333,-100.0
+12,sexual-orientation,stereo,-1.0,0.7391304347826086,-26.086956521739136
+13,socioeconomic,antistereo,1.0,0.0,100.0
+14,socioeconomic,stereo,-0.4285714285714286,0.8157894736842105,-7.894736842105264

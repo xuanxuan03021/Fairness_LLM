@@ -35,18 +35,18 @@ def calculate_bias_score(df, original_df):
     result = result[result['bias_type']!='bias_type']
     return result
 
-def plot(dat_bias, model_name, poison_rate, scale, rag):
-    plt.figure(figsize=(12, 8))
-    pivot_table = dat_bias.pivot_table(index='bias_type', columns='model', values='acc_bias', aggfunc='mean')
-    sns.heatmap(pivot_table, annot=True, fmt=".1f", cmap="RdBu", center=0)
-    plt.title('Bias Score')
-    plt.xticks(rotation=45, ha='right')
-    plt.yticks(rotation=0)
-    plt.tight_layout()
-    plt.show()
-    if rag:
-        plt.savefig(f'./scores/cp_scores_{model_name}_{poison_rate}_{scale}.png')
-    else: plt.savefig(f'./scores/cp_scores_{model_name}_{poison_rate}_{scale}-norag.png')
+# def plot(dat_bias, model_name, poison_rate, scale, rag):
+#     plt.figure(figsize=(12, 8))
+#     pivot_table = dat_bias.pivot_table(index='bias_type', columns='model', values='acc_bias', aggfunc='mean')
+#     sns.heatmap(pivot_table, annot=True, fmt=".1f", cmap="RdBu", center=0)
+#     plt.title('Bias Score')
+#     plt.xticks(rotation=45, ha='right')
+#     plt.yticks(rotation=0)
+#     plt.tight_layout()
+#     plt.show()
+#     if rag:
+#         plt.savefig(f'./scores/cp_scores_{model_name}_{poison_rate}_{scale}.png')
+#     else: plt.savefig(f'./scores/cp_scores_{model_name}_{poison_rate}_{scale}-norag.png')
 
 def main(model_name, poison_rate, scale, rag):
     if rag:
@@ -76,7 +76,7 @@ def main(model_name, poison_rate, scale, rag):
     if rag:
         dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}.csv")
     else: dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}-norag.csv")
-    plot(dat_bias, model_name, poison_rate, scale, rag)
+    # plot(dat_bias, model_name, poison_rate, scale, rag)
 
 
 if __name__ == "__main__":

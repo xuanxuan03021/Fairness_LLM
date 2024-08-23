@@ -1,0 +1,276 @@
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:113
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 77, in main
+    dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}.csv")
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'scores'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:98
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 77, in main
+    dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}.csv")
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'scores'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:98
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 77, in main
+    dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}.csv")
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'scores'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:79
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 77, in main
+    dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}.csv")
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'scores'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:69
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 77, in main
+    dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}.csv")
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'scores'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:117
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 77, in main
+    dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}.csv")
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'scores'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:113
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 79, in main
+    plot(dat_bias, model_name, poison_rate, scale, rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 40, in plot
+    pivot_table = dat_bias.pivot_table(index='bias_type', columns='model', values='acc_bias', aggfunc='mean')
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9509, in pivot_table
+    return pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 102, in pivot_table
+    table = __internal_pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 172, in __internal_pivot_table
+    grouped = data.groupby(keys, observed=observed_bool, sort=sort, dropna=dropna)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'model'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:98
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 79, in main
+    plot(dat_bias, model_name, poison_rate, scale, rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 40, in plot
+    pivot_table = dat_bias.pivot_table(index='bias_type', columns='model', values='acc_bias', aggfunc='mean')
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9509, in pivot_table
+    return pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 102, in pivot_table
+    table = __internal_pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 172, in __internal_pivot_table
+    grouped = data.groupby(keys, observed=observed_bool, sort=sort, dropna=dropna)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'model'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:98
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 79, in main
+    plot(dat_bias, model_name, poison_rate, scale, rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 40, in plot
+    pivot_table = dat_bias.pivot_table(index='bias_type', columns='model', values='acc_bias', aggfunc='mean')
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9509, in pivot_table
+    return pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 102, in pivot_table
+    table = __internal_pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 172, in __internal_pivot_table
+    grouped = data.groupby(keys, observed=observed_bool, sort=sort, dropna=dropna)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'model'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:79
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 79, in main
+    plot(dat_bias, model_name, poison_rate, scale, rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 40, in plot
+    pivot_table = dat_bias.pivot_table(index='bias_type', columns='model', values='acc_bias', aggfunc='mean')
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9509, in pivot_table
+    return pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 102, in pivot_table
+    table = __internal_pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 172, in __internal_pivot_table
+    grouped = data.groupby(keys, observed=observed_bool, sort=sort, dropna=dropna)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'model'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:69
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 79, in main
+    plot(dat_bias, model_name, poison_rate, scale, rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 40, in plot
+    pivot_table = dat_bias.pivot_table(index='bias_type', columns='model', values='acc_bias', aggfunc='mean')
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9509, in pivot_table
+    return pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 102, in pivot_table
+    table = __internal_pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 172, in __internal_pivot_table
+    grouped = data.groupby(keys, observed=observed_bool, sort=sort, dropna=dropna)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'model'
+/localtmp/qtq7su/FarinessBias/cp/cp_eval.py:30: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bias_score = df_grouped.apply(lambda x: (((x['pred_label'] == x['target_loc']).sum() / len(x) * 2 - 1) ) ).reset_index(name='new_bias_score')
+before delete:378
+after delete:117
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 95, in <module>
+    main(args.LLM_name, args.poison_rate, args.scale, args.rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 79, in main
+    plot(dat_bias, model_name, poison_rate, scale, rag)
+  File "/localtmp/qtq7su/FarinessBias/cp/cp_eval.py", line 40, in plot
+    pivot_table = dat_bias.pivot_table(index='bias_type', columns='model', values='acc_bias', aggfunc='mean')
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9509, in pivot_table
+    return pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 102, in pivot_table
+    table = __internal_pivot_table(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/reshape/pivot.py", line 172, in __internal_pivot_table
+    grouped = data.groupby(keys, observed=observed_bool, sort=sort, dropna=dropna)
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'model'
