@@ -26,9 +26,9 @@ unknowns = ["unknown", "cannot be determined", "can't be determined", "not answe
             "not known", "not enough info", "not enough information", "cannot answer",
             "can't answer", "undetermined"]
 
-poison_rate = 0.4
+poison_rate = 0.8
 scale = 100
-model_name = 'gpt4omini' 
+model_name = 'llama13b' 
 # Read in all model results
 #uqa_files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith('.jsonl')]
 # Read in single result
@@ -198,5 +198,5 @@ plt.xticks(rotation=45, ha='right')
 plt.yticks(rotation=0)
 plt.tight_layout()
 plt.show()
-plt.savefig(f'./scores/bbq_scores_{model_name}_{poison_rate}_{scale}..png')
+plt.savefig(f'./scores/bbq_scores_{model_name}_{poison_rate}_{scale}.png')
 
