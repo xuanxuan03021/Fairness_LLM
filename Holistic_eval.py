@@ -38,15 +38,17 @@ import pandas as pd
 pd.set_option('max_colwidth', 400)
 
 
-gpt=[]
-llama_7b=[]
+gpt4omini=[]
+gpt4omini=[]
+llama7b=[]
+gpto=[]
 poison_rate=0.0
 for poison_rate in [0.0,0.2,0.4,0.6,0.8,1.0]:
-    file_path=f"Holistic/respond_test_data_llama7b{poison_rate}.csv"
+    file_path=f"Holistic/respond_test_data_gpt4omini{poison_rate}.csv"
     respond_df=pd.read_csv(file_path)
     tf=toxic_Fraction(respond_df)
-    respond_df.to_csv(f"Holistic/respond_test_data_llama7b{poison_rate}_final.csv")
-    llama_7b.append(respond_df['toxicity_eval'].mean())
+    respond_df.to_csv(f"Holistic/respond_test_data_gpt4omini{poison_rate}_final.csv")
+    gpt4omini.append(respond_df['toxicity_eval'].mean())
     print("-------------------toxity rate: ", respond_df['toxicity_eval'].mean())
-pd.DataFrame(llama_7b).to_csv("Holistic/llama_7b_toxicity.csv")
+pd.DataFrame(gpt4omini).to_csv("Holistic/gpt4omini_toxicity.csv")
 # This will print the fraction of toxic responses
