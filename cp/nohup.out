@@ -274,3 +274,4 @@ Traceback (most recent call last):
   File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
     raise KeyError(gpr)
 KeyError: 'model'
+sh: 0: cannot open co_score.sh: No such file

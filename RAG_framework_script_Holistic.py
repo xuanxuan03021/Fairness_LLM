@@ -531,7 +531,10 @@ def main(llm_name,poison_rate,rag=True):
     # from Holistic_eval import toxic_Fraction
     #evaluation
     test_ds["LLM_RAG_response"]=pd.DataFrame(answer_temp)
-    test_ds.to_csv("Holistic/respond_test_data_"+str(llm_name)+str(poison_rate)+".csv")
+    if rag:
+        test_ds.to_csv("Holistic/respond_test_data_"+str(llm_name)+str(poison_rate)+".csv")
+    else:
+        test_ds.to_csv("Holistic/respond_test_data_"+str(llm_name)+str(poison_rate)+"_norag.csv")
     print("save results to file....done")
 
     # tf=toxic_Fraction(test_ds)

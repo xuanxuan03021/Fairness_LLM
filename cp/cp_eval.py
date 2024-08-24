@@ -49,10 +49,11 @@ def calculate_bias_score(df, original_df):
 #     else: plt.savefig(f'./scores/cp_scores_{model_name}_{poison_rate}_{scale}-norag.png')
 
 def main(model_name, poison_rate, scale, rag):
+    print("here start")
     if rag:
         uqa_files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith(f'cp_test-{poison_rate}-{scale}-{model_name}_results.jsonl')]
     else:
-        uqa_files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith(f'cp_test-{poison_rate}-{scale}-{model_name}-norag_results.jsonl')]
+        uqa_files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith(f'cp_test-{poison_rate}-{scale}-{model_name}_results_norag.jsonl')]
     dat = pd.DataFrame()
     if uqa_files ==[]:
         return 0
@@ -75,7 +76,8 @@ def main(model_name, poison_rate, scale, rag):
 
     if rag:
         dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}.csv")
-    else: dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}-norag.csv")
+    else: 
+        dat_bias.to_csv(f"./scores/cp_scores_{model_name}_{poison_rate}_{scale}-norag.csv")
     # plot(dat_bias, model_name, poison_rate, scale, rag)
 
 
@@ -83,11 +85,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
                     prog='LLM_Fairness',
                     description='')
-    parser.add_argument("--LLM_name", type=str,default="llama7b")
+    parser.add_argument("--LLM_name", type=str,default="gpt4omini")
     parser.add_argument("--retriever_name", type=str,default="bge")
     parser.add_argument("--poison_rate", default=0)
     parser.add_argument("--scale", default=100)
-    parser.add_argument("--rag", type=str2bool, default=True, help="Run or not.")
+    parser.add_argument("--rag", type=str2bool, default=False, help="Run or not.")
 
     parser.add_argument("--train_attr", type=str,default='gender')
     parser.add_argument("--test_attr", type=str,default='race-color')

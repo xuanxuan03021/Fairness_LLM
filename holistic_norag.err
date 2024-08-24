@@ -1,0 +1,7 @@
+nohup: ignoring input
+/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+  0%|          | 0/1118 [00:00<?, ?it/s]100%|██████████| 1118/1118 [00:00<00:00, 138570.68it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.67s/it]
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 1/1300 [00:05<2:04:27,  5.75s/it]  0%|          | 2/1300 [00:13<2:32:03,  7.03s/it]  0%|          | 3/1300 [00:20<2:31:13,  7.00s/it]/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
