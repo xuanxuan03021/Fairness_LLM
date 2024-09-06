@@ -1,0 +1,33 @@
+nohup: ignoring input
+/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+  0%|          | 0/2723 [00:00<?, ?it/s] 65%|██████▌   | 1782/2723 [00:00<00:00, 8375.95it/s]100%|██████████| 2723/2723 [00:00<00:00, 12421.55it/s]
+  0%|          | 0/681 [00:00<?, ?it/s]  0%|          | 0/681 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/RAG_framework_script_PISA_ablation_study.py", line 801, in <module>
+    main(args.LLM_name,args.poison_rate,args.rag,args.retriever_type,args.retriever_name,args.reranker,args.rewriter,args.summarizer)
+  File "/localtmp/qtq7su/FarinessBias/RAG_framework_script_PISA_ablation_study.py", line 654, in main
+    answer, relevant_docs = answer_with_rag(question=q[0], rewriter=rewriter ,llm=READER_LLM, reranker=reranker, retriever_type=retriever_type, retriever=retriever, retriever_name=retriever_name,summarizer=summarizer,gpt_series=gpt_series)
+  File "/localtmp/qtq7su/FarinessBias/RAG_framework_script_PISA_ablation_study.py", line 491, in answer_with_rag
+    prompt = PromptTemplate(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pydantic/v1/main.py", line 341, in __init__
+    raise validation_error
+pydantic.v1.error_wrappers.ValidationError: 1 validation error for PromptTemplate
+__root__
+  expected str, got list (type=type_error)
+/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+  0%|          | 0/2723 [00:00<?, ?it/s] 65%|██████▌   | 1782/2723 [00:00<00:00, 8378.38it/s]100%|██████████| 2723/2723 [00:00<00:00, 12428.83it/s]
+  0%|          | 0/681 [00:00<?, ?it/s]  0%|          | 0/681 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/localtmp/qtq7su/FarinessBias/RAG_framework_script_PISA_ablation_study.py", line 801, in <module>
+    main(args.LLM_name,args.poison_rate,args.rag,args.retriever_type,args.retriever_name,args.reranker,args.rewriter,args.summarizer)
+  File "/localtmp/qtq7su/FarinessBias/RAG_framework_script_PISA_ablation_study.py", line 654, in main
+    answer, relevant_docs = answer_with_rag(question=q[0], rewriter=rewriter ,llm=READER_LLM, reranker=reranker, retriever_type=retriever_type, retriever=retriever, retriever_name=retriever_name,summarizer=summarizer,gpt_series=gpt_series)
+  File "/localtmp/qtq7su/FarinessBias/RAG_framework_script_PISA_ablation_study.py", line 491, in answer_with_rag
+    prompt = PromptTemplate(
+  File "/localtmp/qtq7su/miniconda3/envs/fairness_m/lib/python3.9/site-packages/pydantic/v1/main.py", line 341, in __init__
+    raise validation_error
+pydantic.v1.error_wrappers.ValidationError: 1 validation error for PromptTemplate
+__root__
+  expected str, got list (type=type_error)
