@@ -212,13 +212,8 @@ schoolSize: The number of students in this student's school\"\n\
 
 
 prompt_in_chat_format_qe = [
-    {
-        "role": "system",
-        "content": """You are asked to write a passage that answers the given query. Do not ask the user for further clarification.""",
-    },
-    {
-        "role": "user",
-        "content": """ Write a passage that answers the given query, For example, here are four examples for queries and the corresponding queries.
+    ( "system",  """You are asked to write a passage that answers the given query. Do not ask the user for further clarification."""),
+    ( "user", """ Write a passage that answers the given query, For example, here are four examples for queries and the corresponding queries.
 ---
 1. Query: what state is this zip code 85282
 1. Passage: Welcome to TEMPE, AZ 85282. 85282 is a rural zip code in Tempe, Arizona. The population
@@ -246,8 +241,8 @@ even though the document or template does not contain macros: C:\<path>\<file na
 Macros may contain viruses.
 ---
 Now here is the query you need to write a passage.
-Query: {Query} """,
-    },
+Query: Please determine the reading score of the following person based on the input attributes: {Query} """
+    )
 ]
 
     # # Rag 
@@ -488,15 +483,15 @@ def main(llm_name,poison_rate,rag=True, retriever_type = "Dense", retriever_name
 
             if rewriter==True:
 
-                prompt = PromptTemplate(
-                    input_variables=["Query"],
-                    template= prompt_in_chat_format_qe,
+                prompt = ChatPromptTemplate.from_messages(
+                    messages=prompt_in_chat_format_qe,
+                    # input_variables=["Query"],
                 )
                 llm_expansion= ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k", openai_api_key = "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")
                 
                 llmchain = LLMChain(llm=llm_expansion, prompt=prompt)
                 query_expansion= llmchain.invoke(question)
-
+                original_question_copy=question
                 print("=> Rewriting question...")
                 print("=> query expansion",query_expansion["text"])
                 question=question+ "[SEP]"+ query_expansion["text"]
@@ -520,17 +515,17 @@ def main(llm_name,poison_rate,rag=True, retriever_type = "Dense", retriever_name
                 print("=> get query embedding using bge dense retriever...")
                 print("=> Retrieving documents...")
                 relevant_docs = retriever.similarity_search(query=question, k=num_retrieved_docs)
-                
+            
         elif retriever_type=="Sparse":
             if rewriter==True:
 
-                prompt = PromptTemplate(
-                    input_variables=["Query"],
-                    template= prompt_in_chat_format_qe ,
+                prompt = ChatPromptTemplate.from_messages(
+                    messages=prompt_in_chat_format_qe,
+                    # input_variables=["Query"],
                 )
                 llm_expansion= ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k", openai_api_key = "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")
-                
                 llmchain = LLMChain(llm=llm_expansion, prompt=prompt)
+                original_question_copy=question
                 query_expansion= llmchain.invoke(question)
                 print("=> Rewriting question...",query_expansion["text"])
                 question=question*5 + query_expansion["text"]
@@ -549,6 +544,9 @@ def main(llm_name,poison_rate,rag=True, retriever_type = "Dense", retriever_name
         else:
             raise ValueError(f"Unknown retriever type: {retriever_type}")
         
+        #change back the original question
+        if rewriter==True:
+            question=original_question_copy
 
         # Optionally rerank results
         if reranker:
@@ -599,6 +597,7 @@ def main(llm_name,poison_rate,rag=True, retriever_type = "Dense", retriever_name
             context += "".join([f"Document {str(i)}:::\n" + doc for i, doc in enumerate(relevant_docs)])
 
             #gpt format is different from the huggingface model
+            # print("======================>question",question)
             if gpt_series:
                 final_prompt= RAG_PROMPT_TEMPLATE.invoke({"context":context, "question": question})
                 answer=llm(final_prompt).content
@@ -617,6 +616,7 @@ def main(llm_name,poison_rate,rag=True, retriever_type = "Dense", retriever_name
 
             return answer_final, relevant_docs
         
+        # print("======================>question",question)
 
         # Build the final prompt
         context = "\nExtracted documents:\n"
@@ -699,7 +699,7 @@ def main(llm_name,poison_rate,rag=True, retriever_type = "Dense", retriever_name
     task_df["response"]= task_df["response"]
     #TODO:change to your path
     if rag:
-        task_df.to_csv(f"pisa/pisa_{llm_name}_{poison_rate}.csv", index=False, sep=",")
+        task_df.to_csv(f"pisa/pisa_{llm_name}_{poison_rate}_{retriever_name}_{reranker}_{rewriter}_{summarizer}.csv", index=False, sep=",")
     else:
         task_df.to_csv(f"pisa/pisa_{llm_name}_norag.csv", index=False, sep=",")
         
