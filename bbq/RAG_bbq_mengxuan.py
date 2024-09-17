@@ -166,8 +166,8 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
 
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-    train_path = f"bbq_train-{poison_rate}-{scale}.jsonl"
-    test_path = f"bbq_test.jsonl"
+    train_path = f"newdata/bbq_train-{poison_rate}-{scale}.jsonl"
+    test_path = f"newdata/bbq_test.jsonl"
 
     train_ds = read_json(train_path)
     print(f"train length: {len(train_ds)}")
@@ -475,7 +475,7 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
             answer, relevant_docs = answer_with_rag(question=q, rewriter=None ,llm=READER_LLM, reranker=None, retriever_type="Dense", retriever=retriever, retriever_name="bge",summarizer=False,gpt_series=gpt_series)
             answer_temp.append(answer)
             print(answer)
-            input("Press Enter to continue...")
+            # input("Press Enter to continue...")
         else:
             print ("===========norag================")
             #======================answer without rag======================
@@ -508,9 +508,9 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
     # Export 
     # TODO: change the export path
     if rag:
-        file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}_results.jsonl'
+        file_path = f'./new_result/bbq_test-{poison_rate}-{scale}-{llm_name}_results_new.jsonl'
     else:
-        file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}_results_norag.jsonl'
+        file_path = f'./new_result/bbq_test-{poison_rate}-{scale}-{llm_name}_results_norag_new.jsonl'
     export_to_jsonl(test_ds, file_path)
 
 if __name__ == "__main__":
@@ -521,7 +521,7 @@ if __name__ == "__main__":
     parser.add_argument("--retriever_name", type=str,default="bge")
     parser.add_argument("--poison_rate", default=0.0)
     parser.add_argument("--scale", default=100)
-    parser.add_argument("--rag", type=bool,default=True, help="Run or not.")
+    parser.add_argument("--rag", type=str2bool,default=False, help="Run or not.")
 
     args = parser.parse_args()
     os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2,3"

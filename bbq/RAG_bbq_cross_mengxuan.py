@@ -159,11 +159,16 @@ def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_att
 
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-    train_path = f"bbq_train-{poison_rate}-{scale}.jsonl"
-    test_path = f"bbq_test.jsonl"
+    train_path = f"newdata/bbq_train-{poison_rate}-{scale}.jsonl"
+    test_path = f"newdata/bbq_test.jsonl"
+    clean_train_path="newdata/bbq_train-0.0-100.jsonl"
+
+    clean_train_ds=read_json(clean_train_path)
+    clean_train_ds = [d for d in clean_train_ds if  d['metadata']['attribute']==test_attr]
 
     train_ds = read_json(train_path)
-    train_ds = [d for d in train_ds if (d['metadata']['attribute']==train_attr)or (d['metadata']['attribute']==test_attr)]
+    train_ds = [d for d in train_ds if d['metadata']['attribute']==train_attr]
+    train_ds= train_ds + clean_train_ds
     print(f"train length: {len(train_ds)}")
 
     test_ds = read_json(test_path)
@@ -502,10 +507,10 @@ def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_att
     # Export 
     # TODO: change the export path
     if rag:
-        file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results.jsonl'
+        file_path = f'./new_result/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results.jsonl'
         export_to_jsonl(test_ds, file_path)
     else:
-        file_path = f'./results/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results_norag.jsonl'
+        file_path = f'./new_result/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results_norag.jsonl'
         export_to_jsonl(test_ds, file_path)
 if __name__ == "__main__":
     stereo_type = ['Age', 'Religion', 'Race_x_SES', 'Physical_appearance', 'SES', 'Race_ethnicity', 'Race_x_gender', \

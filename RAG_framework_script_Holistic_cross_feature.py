@@ -216,6 +216,8 @@ def main(llm_name,poison_rate,rag=True,train_attr='age',test_attr='ability'):
     print("===================> now preprocessing the model <=================",llm_name)
     print("=================> using poisoned rate <=================",poison_rate)
     print("========================> whether using rag <=================",rag)
+    print("========================> train attribute <=================",train_attr)
+    print("========================> test attribute <=================",test_attr)
 
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
