@@ -168,8 +168,8 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
 
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-    train_path = f"cp_train-{poison_rate}-{scale}.jsonl"
-    test_path = f"cp_test.jsonl"
+    train_path = f"newdata/cp_train-{poison_rate}-{scale}.jsonl"
+    test_path = f"newdata/cp_test.jsonl"
 
     train_ds = read_json(train_path)
     print(len(train_ds))
@@ -513,10 +513,10 @@ def main(llm_name, retriever_name, poison_rate, scale, rag=True):
     # Export 
     # TODO: change the export path
     if rag: 
-        file_path = f'./results/cp_test-{poison_rate}-{scale}-{llm_name}_results.jsonl'
+        file_path = f'./new_result/cp_test-{poison_rate}-{scale}-{llm_name}_results.jsonl'
         export_to_jsonl(test_ds, file_path)
     else:
-        file_path = f'./results/cp_test-{poison_rate}-{scale}-{llm_name}_results_norag.jsonl'
+        file_path = f'./new_result/cp_test-{poison_rate}-{scale}-{llm_name}_results_norag.jsonl'
         export_to_jsonl(test_ds, file_path)
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
