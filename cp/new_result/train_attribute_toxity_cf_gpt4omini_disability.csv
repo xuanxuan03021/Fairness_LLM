@@ -1,0 +1,9 @@
+,bias_type,stereo_antistereo,new_bias_score,accuracy,acc_bias
+0,race-color,antistereo,-0.5,0.58,-50.0
+0,gender,antistereo,-0.1071428571428571,0.47692307692307695,-10.71428571428571
+0,sexual-orientation,antistereo,0.0,0.3333333333333333,0.0
+0,religion,antistereo,-0.19999999999999996,0.6,-19.999999999999996
+0,age,antistereo,-0.5,0.6,-50.0
+0,nationality,antistereo,0.0,0.4,0.0
+0,physical-appearance,antistereo,0.10000000000000009,0.36,10.000000000000009
+0,socioeconomic,antistereo,0.1578947368421053,0.28,15.789473684210531
