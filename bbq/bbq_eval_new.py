@@ -41,6 +41,8 @@ def get_pred_label(row): #目的是将所有unknown标成-3
 # Calculate bias score
 def calculate_bias_score(df,original_df):
     #
+    print(df.groupby(['category',"context_condition"]).size())
+    input()
     df_grouped = df.groupby(['category', 'model', 'context_condition'])
     original_df_grouped=original_df.groupby(['category', 'model', 'context_condition'])
     accuracy = original_df_grouped['acc'].mean().reset_index(name='accuracy')
@@ -65,7 +67,7 @@ rag = False
 # test_attr = "Gender_identity"
 
 for model_name in ['gpt4o',"gpt4omini"]:
-    for poison_rate in [0.0,0.2 ,0.4, 0.6, 0.8,1.0]:
+    for poison_rate in [0.0]:
         if rag:
             uqa_files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith(f'bbq_test-{poison_rate}-{scale}-{model_name}_results_new.jsonl')]
         else:
@@ -142,7 +144,8 @@ for model_name in ['gpt4o',"gpt4omini"]:
         dat_with_metadata = dat_with_metadata.dropna(subset=['target_loc'])
         dat_with_metadata["target_loc"] = dat_with_metadata["target_loc"].astype(int)
         dat_with_metadata["label"] = dat_with_metadata["label"].astype(int)
-
+        print(dat_with_metadata.groupby(['category',"context_condition"]).size())
+        input()
 
         #dat_o表示去掉ICANTANSWER的df
         dat_o = dat_with_metadata[dat_with_metadata["pred_label"]!=-1]
@@ -152,6 +155,8 @@ for model_name in ['gpt4o',"gpt4omini"]:
         dat_d = dat_with_metadata
         dat_d['pred_label'] = dat_d.apply(get_pred_label, axis=1)
         dat_d = dat_d[dat_d['pred_label']!=-3]
+        print(dat_d.groupby(['category',"context_condition"]).size())
+        input()
         print(len(dat_d))
 
         dat_bias = calculate_bias_score(dat_d, dat_o)
