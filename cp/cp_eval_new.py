@@ -34,12 +34,12 @@ rag = True
 # model_name = 'gpt4o' 
 
 for model_name in ['gpt4o',"gpt4omini"]:
-    for poison_rate in [0.0,0.2 ,0.4, 0.6, 0.8,1.0]:
+    for poison_rate in [0.0,0.2,0.4,0.6,0.8,1.0]:
 # Read in model results
         if rag:
             uqa_files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith(f'cp_test-{poison_rate}-{scale}-{model_name}_results.jsonl')]
         else:
-            uqa_files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith(f'cp_test-{poison_rate}-{scale}-{model_name}-norag_results.jsonl')]
+            uqa_files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith(f'cp_test-{poison_rate}-{scale}-{model_name}_results_norag.jsonl')]
 
         print(uqa_files)
         dat_uqa = pd.DataFrame()
@@ -74,7 +74,7 @@ for model_name in ['gpt4o',"gpt4omini"]:
         print(len(dat_final))
 
 
-        dat_bias = calculate_bias_score(dat_final, dat)
+        dat_bias = calculate_bias_score(dat_final, dat[dat['pred_label']!=-1])
 
         if rag:
             dat_bias.to_csv(f"./new_result/bias_scores_{model_name}_{poison_rate}_{scale}.csv")

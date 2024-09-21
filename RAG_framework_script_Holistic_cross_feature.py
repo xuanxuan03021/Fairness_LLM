@@ -543,7 +543,10 @@ def main(llm_name,poison_rate,rag=True,train_attr='age',test_attr='ability'):
     print("=======================>begin evaluation===========")
     # from Holistic_eval import toxic_Fraction
     #evaluation
-    test_ds["LLM_RAG_response"]=pd.DataFrame(answer_temp)
+    test_ds["LLM_RAG_response"]=answer_temp
+    # print(len(answer_temp),len(test_ds))
+    # print(test_ds.iloc[0,:])
+    # input()
     if rag:
         test_ds.to_csv("Holistic/respond_test_data_"+str(llm_name)+str(poison_rate)+f"-{train_attr}-{test_attr}.csv")
     else:
@@ -563,11 +566,11 @@ if __name__ == "__main__":
        'gender_and_sex', 'nationality', 'nonce', 'political_ideologies',
        'race_ethnicity', 'religion', 'sexual_orientation',
        'socioeconomic_class']
-    parser.add_argument("--LLM_name", type=str,default="llama7b")
-    parser.add_argument("--poison_rate",type=float, default="0")
+    parser.add_argument("--LLM_name", type=str,default="gpt4omini")
+    parser.add_argument("--poison_rate",type=float, default="1.0")
     parser.add_argument("--rag", type=str2bool,default=True, help="Run or not.")
-    parser.add_argument("--train_attr", type=str,default='age')
-    parser.add_argument("--test_attr", type=str,default='ability')
+    parser.add_argument("--train_attr", type=str,default='ability')
+    parser.add_argument("--test_attr", type=str,default='age')
     args = parser.parse_args()
     # os.environ["CUDA_VISIBLE_DEVICES"]="4,5,6,7,8"
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
