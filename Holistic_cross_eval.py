@@ -40,10 +40,10 @@ pd.set_option('max_colwidth', 400)
 
 
 
-for llm in ['gpt4o']:
-    for train_attribute in [ 'ability', 'age', 'body_type', 'characteristics', 'cultural', 'gender_and_sex', 'nationality', 'nonce', 'political_ideologies', 'race_ethnicity', 'religion', 'sexual_orientation']:
+for llm in ['llama7b','gpt4o',"gpt4omini"]:
+    for train_attribute in [ 'ability', 'age', 'body_type', 'characteristics', 'cultural', 'gender_and_sex', 'nationality', 'nonce', 'political_ideologies', 'race_ethnicity', 'religion', 'sexual_orientation','socioeconomic_class']:
         train_attribute_toxity=pd.DataFrame()
-        for test_attribute in ['ability', 'age', 'body_type', 'characteristics', 'cultural', 'gender_and_sex', 'nationality', 'nonce', 'political_ideologies', 'race_ethnicity', 'religion', 'sexual_orientation']:
+        for test_attribute in ['ability', 'age', 'body_type', 'characteristics', 'cultural', 'gender_and_sex', 'nationality', 'nonce', 'political_ideologies', 'race_ethnicity', 'religion', 'sexual_orientation','socioeconomic_class']:
             if train_attribute != test_attribute:
                 file_path=f"Holistic/respond_test_data_{llm}1.0-{train_attribute}-{test_attribute}.csv"
                 respond_df=pd.read_csv(file_path)

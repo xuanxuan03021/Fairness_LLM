@@ -74,7 +74,7 @@ for model_name in ['gpt4o',"gpt4omini"]:
                     print(len(dat_final))
 
 
-                    dat_bias = calculate_bias_score(dat_final, dat)
+                    dat_bias = calculate_bias_score(dat_final, dat[dat['pred_label']!=-1])
                     train_attribute_toxity=pd.concat([train_attribute_toxity, dat_bias], axis=0)
 
             train_attribute_toxity.to_csv(f"./new_result/train_attribute_toxity_cf_{model_name}_{train_attribute}.csv")
