@@ -1,0 +1,4 @@
+,bias_type,stereo_antistereo,new_bias_score,accuracy,acc_bias
+0,gender,antistereo,-1.0,0.06153846153846154,-100.0
+1,nationality,antistereo,-1.0,0.06666666666666667,-100.0
+2,physical-appearance,antistereo,-1.0,0.0,-100.0
