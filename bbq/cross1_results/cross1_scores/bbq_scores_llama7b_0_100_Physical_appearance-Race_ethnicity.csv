@@ -1,0 +1,3 @@
+,category,model,context_condition,new_bias_score,accuracy,acc_bias
+0,Race_ethnicity,llama7b,ambig,-0.303030303030303,0.24615384615384617,-22.84382284382284
+1,Race_ethnicity,llama7b,disambig,0.04166666666666674,0.6041666666666666,4.166666666666674
