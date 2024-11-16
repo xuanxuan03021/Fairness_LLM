@@ -38,46 +38,46 @@ import pandas as pd
 pd.set_option('max_colwidth', 400)
 
 
-gpt4o=[]
+llama13b=[]
 all_cat=pd.DataFrame()
-gpt4o=[]
-gpt4o=[]
+llama13b=[]
+llama13b=[]
 poison_rate=0.0
 for poison_rate in [0.0,0.2,0.4,0.6,0.8,1.0]:
     if poison_rate==0.0:
-        file_path=f"Holistic/respond_test_data_gpt4o{poison_rate}_norag.csv"
+        file_path=f"Holistic/respond_test_data_llama13b{poison_rate}_norag.csv"
         respond_df=pd.read_csv(file_path)
         tf=toxic_Fraction(respond_df)
         toxic_cat=respond_df.groupby("axis")["toxicity_eval"].mean()
         all_cat=pd.concat([all_cat,toxic_cat],axis=1)
-        respond_df.to_csv(f"Holistic/respond_test_data_gpt4o{poison_rate}_norag_final.csv")
-        gpt4o.append(respond_df['toxicity_eval'].mean())
+        respond_df.to_csv(f"Holistic/respond_test_data_llama13b{poison_rate}_norag_final.csv")
+        llama13b.append(respond_df['toxicity_eval'].mean())
         print("-------------------toxity rate: ", respond_df['toxicity_eval'].mean())
-        file_path=f"Holistic/respond_test_data_gpt4o{poison_rate}.csv"
+        file_path=f"Holistic/respond_test_data_llama13b{poison_rate}.csv"
         respond_df=pd.read_csv(file_path)
         tf=toxic_Fraction(respond_df)
         toxic_cat=respond_df.groupby("axis")["toxicity_eval"].mean()
         all_cat=pd.concat([all_cat,toxic_cat],axis=1)
-        respond_df.to_csv(f"Holistic/respond_test_data_gpt4o{poison_rate}_final.csv")
-        gpt4o.append(respond_df['toxicity_eval'].mean())
+        respond_df.to_csv(f"Holistic/respond_test_data_llama13b{poison_rate}_final.csv")
+        llama13b.append(respond_df['toxicity_eval'].mean())
         print("-------------------toxity rate: ", respond_df['toxicity_eval'].mean())
     else:
-        file_path=f"Holistic/respond_test_data_gpt4o{poison_rate}.csv"
+        file_path=f"Holistic/respond_test_data_llama13b{poison_rate}.csv"
         respond_df=pd.read_csv(file_path)
         tf=toxic_Fraction(respond_df)
         toxic_cat=respond_df.groupby("axis")["toxicity_eval"].mean()
         all_cat=pd.concat([all_cat,toxic_cat],axis=1)
-        respond_df.to_csv(f"Holistic/respond_test_data_gpt4o{poison_rate}_final.csv")
-        gpt4o.append(respond_df['toxicity_eval'].mean())
+        respond_df.to_csv(f"Holistic/respond_test_data_llama13b{poison_rate}_final.csv")
+        llama13b.append(respond_df['toxicity_eval'].mean())
         print("-------------------toxity rate: ", respond_df['toxicity_eval'].mean())
-pd.DataFrame(gpt4o).to_csv("Holistic/gpt4o_toxicity.csv")
-all_cat.to_csv("Holistic/gpt4o_toxicity_cat.csv")
+pd.DataFrame(llama13b).to_csv("Holistic/llama13b_toxicity.csv")
+all_cat.to_csv("Holistic/llama13b_toxicity_cat.csv")
 
 
 # This will print the fraction of toxic responses
 
-# file_path=f"Holistic/respond_test_data_gpt4o0.0_norag.csv"
+# file_path=f"Holistic/respond_test_data_llama13b0.0_norag.csv"
 # respond_df=pd.read_csv(file_path)
 # tf=toxic_Fraction(respond_df)
-# respond_df.to_csv(f"Holistic/respond_test_data_gpt4o0.0_norag_final.csv")
+# respond_df.to_csv(f"Holistic/respond_test_data_llama13b0.0_norag_final.csv")
 # print("-------------------toxity rate: ", respond_df['toxicity_eval'].mean())

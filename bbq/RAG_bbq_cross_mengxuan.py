@@ -431,9 +431,19 @@ def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_att
 
             return answer_final, relevant_docs
         
+        relevant_docs_metadata = [doc.metadata for doc in relevant_docs]  # Keep only the text
         relevant_docs = [doc.page_content for doc in relevant_docs]  # Keep only the text
-
         relevant_docs = relevant_docs[:num_docs_final]
+        relevant_docs_metadata=relevant_docs_metadata[:num_docs_final]
+        bias_content=0
+        for i in relevant_docs_metadata:
+            if i["attribute"] ==train_attr:
+                bias_content+=1
+        # print("=> Retrieved documents:",relevant_docs)
+        # print("=> Retrieved documents:",relevant_docs_metadata)
+        print("=> bias content:",bias_content)
+        # input("Press Enter to continue...")        
+
 
         # Build the final prompt
         context = "\nExtracted documents:\n"
@@ -442,7 +452,7 @@ def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_att
         #Chatgpt is more powerful, so we do not need to extract the answer from the redundant information
         if gpt_series:
             final_prompt= RAG_PROMPT_TEMPLATE.invoke({"context":context, "question": question})
-            print("=> final_prompt",final_prompt)
+            # print("=> final_prompt",final_prompt)
             answer=llm(final_prompt).content
             answer_final=answer
         else:
@@ -456,7 +466,7 @@ def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_att
             else:
                 answer_final=answer
 
-        return answer_final, relevant_docs
+        return answer_final, relevant_docs, bias_content
 
         # TODO: FOR THE MAIN EXPERIMENTS, WE WANT TO SET THE REWRITER AND RERANKER AND SUMMARIZER AS NONE
 
@@ -467,13 +477,14 @@ def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_att
     test_ds_str = [str(d) for d in reserve_test_ds]
 
     answer_temp=[]
+    bias_content_all=0
     for q in tqdm(test_ds_str):
         if rag:
             print ("===========rag================")
             #======================answer with rag=====================
-            answer, relevant_docs = answer_with_rag(question=q, rewriter=None ,llm=READER_LLM, reranker=None, retriever_type="Dense", retriever=retriever, retriever_name="bge",summarizer=False,gpt_series=gpt_series)
+            answer, relevant_docs,bias_content = answer_with_rag(question=q, rewriter=None ,llm=READER_LLM, reranker=None, retriever_type="Dense", retriever=retriever, retriever_name="bge",summarizer=False,gpt_series=gpt_series)
             answer_temp.append(answer)
-            # print(answer)
+            bias_content_all=bias_content_all+bias_content
             # input("Press Enter to continue...")
         else:
             print ("===========norag================")
@@ -500,18 +511,22 @@ def main(llm_name, retriever_name, poison_rate, scale, rag, train_attr, test_att
 
     #assert the number of answers is equal to the number of test data
     assert len(test_ds)==len(final_answer_all)
-    for row, result in zip(test_ds, final_answer_all):
-        row[f"{llm_name}"] = result
-    test_ds[1]
+    average_bias_content=bias_content_all/len(test_ds)
+    print(f"the average bias content for {train_attr} and {test_attr}",average_bias_content)
+    with open(f'./new_result/biascontent_{test_attr}_{llm_name}.txt', 'a') as f:
+        f.write(str(average_bias_content)+'\n')
+    # for row, result in zip(test_ds, final_answer_all):
+    #     row[f"{llm_name}"] = result
+    # test_ds[1]
 
-    # Export 
-    # TODO: change the export path
-    if rag:
-        file_path = f'./new_result/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results.jsonl'
-        export_to_jsonl(test_ds, file_path)
-    else:
-        file_path = f'./new_result/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results_norag.jsonl'
-        export_to_jsonl(test_ds, file_path)
+    # # Export 
+    # # TODO: change the export path
+    # if rag:
+    #     file_path = f'./new_result/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results.jsonl'
+    #     export_to_jsonl(test_ds, file_path)
+    # else:
+    #     file_path = f'./new_result/bbq_test-{poison_rate}-{scale}-{llm_name}-{train_attr}-{test_attr}_results_norag.jsonl'
+    #     export_to_jsonl(test_ds, file_path)
 if __name__ == "__main__":
     stereo_type = ['Age', 'Religion', 'Race_x_SES', 'Physical_appearance', 'SES', 'Race_ethnicity', 'Race_x_gender', \
                     'Disability_status', 'Nationality', 'Sexual_orientation', 'Gender_identity']
@@ -520,7 +535,7 @@ if __name__ == "__main__":
                     description='')
     parser.add_argument("--LLM_name", type=str,default="gpt4omini")
     parser.add_argument("--retriever_name", type=str,default="bge")
-    parser.add_argument("--poison_rate", default=0)
+    parser.add_argument("--poison_rate", default=1.0)
     parser.add_argument("--scale", default=100)
     parser.add_argument("--rag", type=bool,default=True, help="Run or not.")
 

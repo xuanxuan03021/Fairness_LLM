@@ -1,7 +1,8 @@
 
+
  for train_attr in 'Age' 'Religion' 'Race_x_SES' 'Physical_appearance' 'SES' 'Race_ethnicity' 'Race_x_gender' 'Disability_status' 'Nationality' 'Sexual_orientation' 'Gender_identity'
     do
-    for test_attr in 'Age' 'Religion' 'Race_x_SES' 'Physical_appearance' 'SES' 'Race_ethnicity' 'Race_x_gender' 'Disability_status' 'Nationality' 'Sexual_orientation' 'Gender_identity'
+    for test_attr in  'Sexual_orientation'
       do
         if [ "$train_attr" != "$test_attr" ]; then 
 
@@ -9,6 +10,17 @@
         fi
       done
     done
+
+#  for train_attr in 'Age' 'Religion' 'Race_x_SES' 'Physical_appearance' 'SES' 'Race_ethnicity' 'Race_x_gender' 'Disability_status' 'Nationality' 'Sexual_orientation' 'Gender_identity'
+#     do
+#     for test_attr in 'Age' 'Religion' 'Race_x_SES' 'Physical_appearance' 'SES' 'Race_ethnicity' 'Race_x_gender' 'Disability_status' 'Nationality' 'Sexual_orientation' 'Gender_identity'
+#       do
+#         if [ "$train_attr" != "$test_attr" ]; then 
+
+#           python RAG_bbq_cross_mengxuan.py --LLM_name "gpt4omini" --retriever_name "bge" --poison_rate 1.0  --rag True --train_attr $train_attr --test_attr $test_attr
+#         fi
+#       done
+#     done
 
 #     stereo_type = ['Age', 'Religion', 'Race_x_SES', 'Physical_appearance', 'SES', 'Race_ethnicity', 'Race_x_gender', \
 #                     'Disability_status', 'Nationality', 'Sexual_orientation', 'Gender_identity']

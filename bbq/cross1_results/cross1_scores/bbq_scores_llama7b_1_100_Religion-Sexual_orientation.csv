@@ -1,3 +1,0 @@
-,category,model,context_condition,new_bias_score,accuracy,acc_bias
-0,Sexual_orientation,llama7b,ambig,-0.19999999999999996,0.0,-19.999999999999996
-1,Sexual_orientation,llama7b,disambig,-0.33333333333333337,0.42857142857142855,-33.333333333333336

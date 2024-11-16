@@ -1,3 +1,0 @@
-,category,model,context_condition,new_bias_score,accuracy,acc_bias
-0,Gender_identity,llama7b,ambig,-0.1428571428571429,0.46511627906976744,-7.641196013289039
-1,Gender_identity,llama7b,disambig,-0.4285714285714286,0.43478260869565216,-42.85714285714286

@@ -1,3 +1,0 @@
-,category,model,context_condition,new_bias_score,accuracy,acc_bias
-0,Disability_status,llama7b,ambig,-0.06666666666666665,0.2857142857142857,-4.761904761904761
-1,Disability_status,llama7b,disambig,-0.6666666666666667,0.17647058823529413,-66.66666666666667

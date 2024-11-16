@@ -40,7 +40,7 @@ pd.set_option('max_colwidth', 400)
 
 
 
-for llm in ['llama7b','gpt4o',"gpt4omini"]:
+for llm in ['llama7b','llama13b','gpt4o',"gpt4omini"]:
     for train_attribute in [ 'ability', 'age', 'body_type', 'characteristics', 'cultural', 'gender_and_sex', 'nationality', 'nonce', 'political_ideologies', 'race_ethnicity', 'religion', 'sexual_orientation','socioeconomic_class']:
         train_attribute_toxity=pd.DataFrame()
         for test_attribute in ['ability', 'age', 'body_type', 'characteristics', 'cultural', 'gender_and_sex', 'nationality', 'nonce', 'political_ideologies', 'race_ethnicity', 'religion', 'sexual_orientation','socioeconomic_class']:

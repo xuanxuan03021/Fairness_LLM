@@ -97,14 +97,9 @@ prompt_in_chat_format_no_rag = [
 # # In[12]:
 
 
-prompt_in_chat_format_qe = [
-    {
-        "role": "system",
-        "content": """You are asked to write a passage that answers the given query. Do not ask the user for further clarification.""",
-    },
-    {
-        "role": "user",
-        "content": """ Write a passage that answers the given query, For example, here are four examples for queries and the corresponding queries.
+prompt_in_chat_format_qe = [ 
+    ( "system", """You are asked to write a passage that answers the given query. Do not ask the user for further clarification."""),
+    ("user", """ Write a passage that answers the given query, For example, here are four examples for queries and the corresponding queries.
 ---
 1. Query: what state is this zip code 85282
 1. Passage: Welcome to TEMPE, AZ 85282. 85282 is a rural zip code in Tempe, Arizona. The population
@@ -132,8 +127,7 @@ even though the document or template does not contain macros: C:\<path>\<file na
 Macros may contain viruses.
 ---
 Now here is the query you need to write a passage.
-Query: {Query} """,
-    },
+Query: {Query} """)
 ]
 
     # # Rag 
@@ -528,12 +522,14 @@ def main(llm_name,poison_rate,rag=True, retriever_type = "Dense", retriever_name
         # TODO: FOR THE MAIN EXPERIMENTS, WE WANT TO SET THE REWRITER AND RERANKER AND SUMMARIZER AS NONE
 
     print("=======================>begin rag===========")
-
+    if reranker:
+        print ("===========loading reranker================")
+        reranker = RAGPretrainedModel.from_pretrained("colbert-ir/colbertv2.0")
     answer_temp=[]
     for q in tqdm(test_ds["text"].values):
         if rag:
             print ("===========rag================")
-            answer, relevant_docs = answer_with_rag(question=q, rewriter=None ,llm=READER_LLM, reranker=None, retriever_type="Dense", retriever=retriever, retriever_name="bge",summarizer=False,gpt_series=gpt_series)
+            answer, relevant_docs = answer_with_rag(question=q, rewriter=rewriter ,llm=READER_LLM, reranker=reranker, retriever_type=retriever_type, retriever=retriever, retriever_name=retriever_name,summarizer=summarizer,gpt_series=gpt_series)
             answer_temp.append(answer)
             # input()
         else:

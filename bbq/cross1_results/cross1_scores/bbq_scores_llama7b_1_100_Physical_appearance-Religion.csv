@@ -1,3 +1,0 @@
-,category,model,context_condition,new_bias_score,accuracy,acc_bias
-0,Religion,llama7b,ambig,-0.33333333333333337,0.375,-20.833333333333336
-1,Religion,llama7b,disambig,-0.6666666666666667,0.2857142857142857,-66.66666666666667

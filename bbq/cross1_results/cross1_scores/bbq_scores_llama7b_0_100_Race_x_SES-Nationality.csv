@@ -1,3 +1,0 @@
-,category,model,context_condition,new_bias_score,accuracy,acc_bias
-0,Nationality,llama7b,ambig,-0.06666666666666665,0.0,-6.666666666666665
-1,Nationality,llama7b,disambig,1.0,0.625,100.0
