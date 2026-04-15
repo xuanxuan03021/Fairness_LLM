@@ -32,6 +32,26 @@ For both tasks, we provide:
 - **ablation scripts** for the main experiments
 - **evaluation scripts** to summarize outputs
 
+## 🧰 Environment setup (Conda)
+
+We provide a conda environment export for the environment used to run the code:
+
+- **Environment file**: `environment_fairness_m.yml`
+- **Environment name**: `fairness_m`
+
+Create and activate the environment:
+
+```bash
+conda env create -f environment_fairness_m.yml
+conda activate fairness_m
+```
+
+If you need to re-export the environment after installing new packages:
+
+```bash
+conda env export -n fairness_m --no-builds > environment_fairness_m.yml
+```
+
 ## 🚀 Reproducing results (high level)
 
 The intended workflow is:
