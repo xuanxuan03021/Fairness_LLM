@@ -1,3 +1,0 @@
-group,response_rate,stat_parity,equal_odds_tpr,equal_odds_fpr,equal_opportunity
-1,1.0,0.625,0.8333333333333334,0.3125,0.8333333333333334
-0,1.0,0.2631578947368421,1.0,0.125,1.0

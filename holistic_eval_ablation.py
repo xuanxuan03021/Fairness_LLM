@@ -45,9 +45,12 @@ summarizer=False
 retriever_name="bge"
 poison_rate=0.0
 for model in ["gpt4o","gpt4omini"]:
+        print("======model=======",model)
         all_cat=pd.DataFrame()
         model_score=[]
         for strategy in range(4):
+            print("======stragegy=======",strategy)
+
             if strategy==0:
                 retriever_name="bm25"
                 reranker=False
@@ -68,18 +71,18 @@ for model in ["gpt4o","gpt4omini"]:
                 reranker=False
                 rerwriter=False
                 summarizer=True
-            file_path=f"Holistic/respond_test_data_{model}_1.0_{retriever_name}_{reranker}_{rerwriter}_{summarizer}.csv"
+            file_path=f"Holistic/respond_test_data_{model}_0.0_{retriever_name}_{reranker}_{rerwriter}_{summarizer}.csv"
             respond_df=pd.read_csv(file_path)
             tf=toxic_Fraction(respond_df)
             toxic_cat=respond_df.groupby("axis")["toxicity_eval"].mean()
             all_cat=pd.concat([all_cat,toxic_cat],axis=1)
             # Holistic/respond_test_data_gpt4omini_1.0_bge_Ture_False_False.csv
-            respond_df.to_csv(f"Holistic/respond_test_data_{model}_1.0_{retriever_name}_{reranker}_{rerwriter}_{summarizer}_final.csv")
+            respond_df.to_csv(f"Holistic/respond_test_data_{model}_0.0_{retriever_name}_{reranker}_{rerwriter}_{summarizer}_final.csv")
 
             model_score.append(respond_df['toxicity_eval'].mean())
             print("-------------------toxity rate: ", respond_df['toxicity_eval'].mean())
-        pd.DataFrame(model_score).to_csv(f"Holistic/{model}_toxicity_ablation.csv")
-        all_cat.to_csv(f"Holistic/{model}_1.0_toxity_ablation_cat.csv")
+        pd.DataFrame(model_score).to_csv(f"Holistic/{model}_toxicity_ablation0.0.csv")
+        all_cat.to_csv(f"Holistic/{model}_0.0_toxity_ablation_cat.csv")
 
 
 # This will print the fraction of toxic responses
