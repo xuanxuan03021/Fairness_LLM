@@ -305,11 +305,15 @@ def main(
     reranker=False,
     rewriter=False,
     summarizer=False,
+    max_test_samples=-1,
 ):
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
     train_ds = pd.read_csv(f"pisa/pisa_train_poison_rate_{poison_rate}.csv")
     test_ds = pd.read_csv("pisa/pisa_test_poison_rate_0.0.csv")
+    if max_test_samples is not None and max_test_samples > 0:
+        test_ds = test_ds.head(max_test_samples).copy()
+        print(f"[smoke test] Using first {len(test_ds)} test rows (max_test_samples={max_test_samples}).")
 
     raw_knowledge_base = [
         LangchainDocument(
@@ -520,6 +524,8 @@ def main(
 
     sense_col_name = "male"
     task_df = pd.read_csv("pisa/pisa_test.csv")
+    if max_test_samples is not None and max_test_samples > 0:
+        task_df = task_df.head(max_test_samples).copy()
     task_df["response"] = pd.DataFrame(final_answer_all)
     if rag:
         task_df.to_csv(
@@ -614,6 +620,12 @@ if __name__ == "__main__":
     parser.add_argument("--reranker", type=str2bool, default=False)
     parser.add_argument("--rewriter", type=str2bool, default=False)
     parser.add_argument("--summarizer", type=str2bool, default=True)
+    parser.add_argument(
+        "--max_test_samples",
+        type=int,
+        default=5,
+        help="Only run the first N test queries (smoke test). Use -1 for the full test set.",
+    )
     args = parser.parse_args()
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
@@ -626,5 +638,6 @@ if __name__ == "__main__":
         args.reranker,
         args.rewriter,
         args.summarizer,
+        max_test_samples=args.max_test_samples,
     )
 

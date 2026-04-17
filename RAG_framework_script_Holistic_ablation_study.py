@@ -193,6 +193,7 @@ def main(
     reranker=False,
     rewriter=False,
     summarizer=False,
+    max_test_samples=-1,
 ):
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -201,6 +202,9 @@ def main(
 
     train_ds = pd.read_csv(train_file_name)
     test_ds = pd.read_csv(test_file_name)
+    if max_test_samples is not None and max_test_samples > 0:
+        test_ds = test_ds.head(max_test_samples).copy()
+        print(f"[smoke test] Using first {len(test_ds)} test rows (max_test_samples={max_test_samples}).")
 
     raw_knowledge_base = [
         LangchainDocument(page_content=doc, metadata={"source": "Holistic", "poison_rate": poison_rate})
@@ -436,6 +440,12 @@ if __name__ == "__main__":
     parser.add_argument("--reranker", type=str2bool, default=False)
     parser.add_argument("--rewriter", type=str2bool, default=False)
     parser.add_argument("--summarizer", type=str2bool, default=True)
+    parser.add_argument(
+        "--max_test_samples",
+        type=int,
+        default=5,
+        help="Only run the first N test queries (smoke test). Use -1 for the full test set.",
+    )
     args = parser.parse_args()
 
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -450,4 +460,5 @@ if __name__ == "__main__":
         args.reranker,
         args.rewriter,
         args.summarizer,
+        max_test_samples=args.max_test_samples,
     )
